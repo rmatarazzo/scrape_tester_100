@@ -1,0 +1,39 @@
+Questions and Answers:
+
+Set1
+
+Do not write any code. I need a python program that uses requests to attempt to scrape each website and provides whether the scrape was successful or not and what the returned status code was as an output. please ask me three clarifying questions.
+
+Depth of Scraping:
+
+Do you need the program to just attempt to fetch the home page of each website, or should it try to navigate through multiple pages on the site?
+answer 1: The first test will just fetch the homepage and the second test should try to navigate through multiple pages
+
+Handling of Robots.txt:
+
+Should the program respect the robots.txt files of the websites, which might disallow scraping of certain pages, or should it attempt to scrape regardless?
+answer 2: The program should respect the robots.txt files of the websites.
+
+Error Handling and Logging:
+
+How detailed should the error handling and logging be? For example, should the program log detailed error messages for failed attempts (e.g., timeouts, connection errors) in addition to the status codes, or is a simple success/failure status with the HTTP status code sufficient?
+answer 3: A simple success/failure status with the HTTP status code is sufficient.
+
+Set2
+
+Depth and Breadth of Multi-Page Navigation:
+
+For the second test where the program navigates through multiple pages, how many levels deep should the program navigate? For example, should it only follow links found on the homepage, or should it follow links found on those pages as well (and so on)?
+How many links should the program follow on each page? Should it follow all links, or just a subset (e.g., the first 5 links)?
+answer 1: Program should investigate two levels deep.  Follow 3 links on each page.
+
+Types of Pages to Navigate:
+
+Should the program filter the types of links it follows (e.g., only HTML pages, avoid PDFs and images)? If so, what criteria should be used to filter these links?
+answer 2: Follow only HTML pages.
+
+User-Agent and Headers:
+
+Should the program use a specific User-Agent header to mimic a particular browser or device, or is the default User-Agent of the requests library sufficient?
+Are there any additional headers that need to be included in the requests (e.g., custom authentication tokens, API keys)?
+answer 3: The default User-Agent of the requests library is sufficient.  There aren't any additional headers that need to be included in the requests (e.g., custom authentication tokens, API keys).
