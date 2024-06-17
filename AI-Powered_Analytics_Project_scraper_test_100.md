@@ -12,7 +12,11 @@ Scrape Tester 100
 ## Project and Work Product Description:  (should be 1 CONCISE paragraph, 3-7 sentences)
 	• Answer "This project / work product (solution) fills these gaps... "
     
-	This Python program identifies websites suitable for web scraping. The user enters a topic that will be used to generate a list of up to 100 relevant websites.  The program builds a list of their links. Each link is tested for web scraping capabilities. The program generates a report for the user that identifies which websites were successfully scraped and which ones failed along with corresponding error codes.
+	Identify websites suitable for web scraping automatically.
+	User is prompted to enter a topic that will be used to generate a list of up to 100 relevant websites.
+	The program builds a list of their links.
+	Each link is tested for web scraping capabilities.
+	The program generates a report for the user that identifies which websites were successfully scraped and which ones failed along with corresponding error codes.
 			
     • Main goals and problem(s) it solves.
 	
@@ -21,22 +25,26 @@ Scrape Tester 100
 	
 	• Problem and Solution Workflow Diagrams (2 flowcharts "AS-IS" and "TO-BE")
 	
-	### AS-IS Flowchart:
+	AS-IS Workflow:
+	Textual Description:
 
-1. **Start**: User initiates the process.
-2. **Input Topic**: User enters the topic.
-3. **Generate Website List**: Program generates a list of up to 100 websites related to the entered topic.
-4. **Build Link List**: Program extracts and builds a list of links from the generated website list.
-   - **Error Generate List**: if failed to generate list, go to end.
-5. **Test Scraping Capability**: For each link, test if the website can be scraped.
-   - **Testing Failed**: If testing capability fails for a link, log error code.
-6. **Build Report**: Create a report that identifies successfully scraped websites and those that failed along with error codes.
-7. **Display Report**: Provide the generated report to the user.
-8. **End**: Process complete.
+	User Input: User enters a topic for web scraping.
+	Manual Search: User manually searches and identifies websites related to the entered topic, up to 100 websites.
+	Manual Link Compilation: User manually compiles a list of links from the identified websites.
+	Manual Capability Check: User manually checks each link to determine its potential for successful web scraping.
+	Manual Report Generation: User manually generates a report listing websites successfully scraped and those that failed, with error details.	
 
 
+	TO-BE Workflow:
+	Textual Description:
+
+	User Input: User provides a topic for web scraping.
+	Automated Website Identification: Program automatically searches and identifies websites relevant to the provided topic.
+	Automated Link Compilation: Automatically compiles a list of links from the identified websites.
+	Test Web Scraping Capability: Automated test scrape for each identified link to determine if it can be successfully scraped.
+	Error Handling: Handle errors encountered during testing and scraping, categorize them with appropriate error codes.
+	Generate Comprehensive Report: Produce a detailed report listing websites successfully scraped and those that failed, including error details.
 	
-
     "A problem clearly stated is a problem half-solved." - Dorothea Brande :
 
 
