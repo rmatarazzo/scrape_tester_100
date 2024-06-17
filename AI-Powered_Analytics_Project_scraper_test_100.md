@@ -49,7 +49,37 @@ Scrape Tester 100
 
 
 ## Description of Solution:  (should be CONCISE, 3-7 sentences)
+
+	The solution automates the identification and evaluation of websites suitable for web scraping based on a user-provided topic. Upon receiving the topic, the program automatically searches and compiles a list of up to 100 relevant websites. Each website is then subjected to an automated test scrape to assess its suitability for data extraction. The program handles any errors encountered during the testing phase and generates a comprehensive report, detailing which websites were successfully scraped and which ones failed, along with corresponding error codes. This automation significantly reduces manual effort and increases the efficiency and accuracy of identifying scrappable websites.
+	
 	• Software functions for solving problem(s) step by step.
+	
+	Software Functions for Solving Problems Step-by-Step:
+	Get User Input:
+
+	Function: get_user_topic()
+	Description: Prompts the user to enter a topic for web scraping.
+	Search for Relevant Websites:
+
+	Function: search_websites(topic)
+	Description: Searches the internet for websites related to the given topic and compiles a list of up to 100 relevant sites.
+	Compile List of Links:
+
+	Function: compile_links(websites)
+	Description: Extracts and compiles links from the list of identified websites.
+	Test Web Scraping Capability:
+
+	Function: test_scraping(link)
+	Description: Performs a test scrape on each link to determine if it can be successfully scraped.
+	Error Handling:
+
+	Function: handle_errors(error)
+	Description: Categorizes and logs errors encountered during the scraping tests, assigning appropriate error codes.
+	Generate Report:
+
+	Function: generate_report(successful_links, failed_links)
+	Description: Generates a report listing the websites that were successfully scraped and those that failed, including detailed error codes.
+	
 	• Workflow diagram of future ("TO-BE") state (improved processes from your solution).
 	• "Minimum Viable Product" (MVP) 1.0 delivered.  (V1.x delivered beyond MVP V1.0?)
 	• Later MVP, i.e., v2, v3, vN+ functionality to be delivered? 
