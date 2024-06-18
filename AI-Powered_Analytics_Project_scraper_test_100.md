@@ -54,29 +54,27 @@ Scrape Tester 100
 	
 	• Software functions for solving problem(s) step by step.
 	
-	Software Functions for Solving Problems Step-by-Step:
 	Get User Input:
-
 	Function: get_user_topic()
 	Description: Prompts the user to enter a topic for web scraping.
+	
 	Search for Relevant Websites:
-
 	Function: search_websites(topic)
 	Description: Searches the internet for websites related to the given topic and compiles a list of up to 100 relevant sites.
+	
 	Compile List of Links:
-
 	Function: compile_links(websites)
 	Description: Extracts and compiles links from the list of identified websites.
+	
 	Test Web Scraping Capability:
-
 	Function: test_scraping(link)
 	Description: Performs a test scrape on each link to determine if it can be successfully scraped.
+	
 	Error Handling:
-
 	Function: handle_errors(error)
 	Description: Categorizes and logs errors encountered during the scraping tests, assigning appropriate error codes.
+	
 	Generate Report:
-
 	Function: generate_report(successful_links, failed_links)
 	Description: Generates a report listing the websites that were successfully scraped and those that failed, including detailed error codes.
 	
@@ -85,6 +83,15 @@ Scrape Tester 100
 	• Later MVP, i.e., v2, v3, vN+ functionality to be delivered? 
     • Additional requirements, Graphical User Interfaces (GUI), usability, etc. for later versions
     
+	Implementation Packages:
+	Selenium - for web browser automation
+	Selenium WebDriver Manager (get latest selenium version that contains webdriver Manager)
+	Faker - for generating a random browser user agent
+	
+	Implementation Workflow Considerations:
+	
+	
+	
 ### Solution Design (high-level):
     • Architecture Design Diagram (Client-Server-DB Block Diagram?) 
     • User Interface Mockup (wireframe?)
