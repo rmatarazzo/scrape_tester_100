@@ -9,6 +9,8 @@ make sure you install the latest versions of all langchain packages
 langchain, langchain-community, langchain-core, and langchain-experimental (for agents and third-party tools) 
 
 
+ipykernel
+
 import tkinter as tk
 from tkinter import simpledialog
 import requests
@@ -23,3 +25,28 @@ selenium
 tkinter
 
 streamlit
+
+
+
+video from Rich
+
+https://developers.google.com/webmaster-tools/pricing
+
+
+
+https://console.cloud.google.com/projectselector2/apis/credentials?supportedpurview=project
+
+https://programmablesearchengine.google.com/controlpanel/create
+
+packages:
+
+langchain
+langchainhub
+google-api-python-client
+python-dotenv
+huggingface_hub
+
+
+
+
+
