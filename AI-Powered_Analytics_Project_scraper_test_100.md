@@ -54,6 +54,56 @@ Scrape Tester 100
 	
 	• Software functions for solving problem(s) step by step.
 	
+User Input:
+Function to prompt the user for a topic.
+GUI-based input or command-line input can be utilized.
+
+Automated Website Identification:
+Function to perform a Google search using the provided topic.
+Use requests to fetch search results and BeautifulSoup to parse the HTML content.
+Use LangChain to manage and organize the search results.
+
+Automated Link Compilation:
+Function to extract links from the Google search results.
+Compile a list of the top 100 links.
+
+Test Web Scraping Capability:
+Function to attempt scraping each identified link.
+Check for the presence of relevant content and handle different content structures.
+Use BeautifulSoup for parsing the HTML content of each link.
+
+Error Handling:
+Function to handle and log errors encountered during the scraping process.
+Categorize errors with appropriate error codes (e.g., 404 Not Found, 403 Forbidden, 500 Internal Server Error).
+
+Generate Comprehensive Report:
+Function to compile the results into a detailed report.
+List websites that were successfully scraped and those that failed, including error details.
+Output the report in a user-friendly format (e.g., CSV, JSON, or a formatted text file).
+
+
+
+Summary of Steps and Functions:
+User Input:
+
+get_user_input(): Prompts the user for a search topic.
+Automated Website Identification:
+
+search_google(query): Performs a Google search and fetches the search results page.
+Automated Link Compilation:
+
+extract_links(html): Extracts and compiles the top 100 links from the search results.
+Test Web Scraping Capability:
+
+test_scraping(link): Tests each link to determine if it can be successfully scraped.
+Error Handling:
+
+Integrated into test_scraping(link): Logs errors and categorizes them with appropriate error codes.
+Generate Comprehensive Report:
+
+generate_report(results): Produces a detailed report of the scraping results.
+
+
 	Get User Input:
 	Function: get_user_topic()
 	Description: Prompts the user to enter a topic for web scraping.
