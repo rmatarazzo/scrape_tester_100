@@ -38,12 +38,12 @@ Scrape Tester 100
 	TO-BE Workflow:
 	Textual Description:
 
-	User Input: User provides a topic for web scraping.
-	Automated Website Identification: Program automatically searches and identifies websites relevant to the provided topic.
-	Automated Link Compilation: Automatically compiles a list of links from the identified websites.
-	Test Web Scraping Capability: Automated test scrape for each identified link to determine if it can be successfully scraped.
-	Error Handling: Handle errors encountered during testing and scraping, categorize them with appropriate error codes.
-	Generate Comprehensive Report: Produce a detailed report listing websites successfully scraped and those that failed, including error details.
+	1. User Input: User is prompted and provides a topic for web scraping tests.
+	2. Automated Website Identification: Program uses requests, beautifulsoup, and langchain to automatically search Google to identify 100 websites relevant to the provided topic.
+	3. Automated Link Compilation: Program automatically compiles a list of 100 links from the Google search identified websites.
+	4. Test Web Scraping Capability: Program performs and automated test scrape for each identified link to determine if it can be successfully scraped.
+	5. Error Handling: Program handles errors encountered during testing and scraping, and then categorizes them with appropriate error codes.
+	6. Generate Comprehensive Report: Program will then produce a detailed report listing the 100 websites that were successfully scraped and those that failed, including error details.
 	
     "A problem clearly stated is a problem half-solved." - Dorothea Brande :
 

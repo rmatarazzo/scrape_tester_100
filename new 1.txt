@@ -1,0 +1,25 @@
+Requires: aiohttp, langchain-core, langchain-text-splitters, langsmith, numpy, pydantic, PyYAML, requests, SQLAlchemy, tenacity
+
+
+pip install 
+
+
+make sure you install the latest versions of all langchain packages
+
+langchain, langchain-community, langchain-core, and langchain-experimental (for agents and third-party tools) 
+
+
+import tkinter as tk
+from tkinter import simpledialog
+import requests
+from bs4 import BeautifulSoup
+from langchain.document_loaders.base import BaseLoader
+
+
+requests
+beautiful soup
+selenium
+
+tkinter
+
+streamlit
