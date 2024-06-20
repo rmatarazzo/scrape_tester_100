@@ -46,7 +46,55 @@ google-api-python-client
 python-dotenv
 huggingface_hub
 
+"C:\Users\rmata\ENV\.env.googleapi"
+
+from dotenv import load_dotenv
+
+def main():
+    load_dotenv('C:/Users/rmata/ENV/.env.openai')
+    st.set_page_config(page_title="Chat with multiple PDFs",
+                       page_icon=":books:")
+    st.write(css, unsafe_allow_html=True)
+
+'C:/Users/rmata/ENV/.env.openai'
 
 
+{
+	"name": "HttpError",
+	"message": "<HttpError 403 when requesting https://customsearch.googleapis.com/customsearch/v1?q=what+are+3+websites+that+show+you+how+to+juggle%3F&cx=27d0ce41028174656&num=10&key=AIzaSyAHupL3ITMxOAthQq8g9T7GuucIHiir5uo&alt=json returned \"Custom Search API has not been used in project 887312385568 before or it is disabled. Enable it by visiting https://console.developers.google.com/apis/api/customsearch.googleapis.com/overview?project=887312385568 then retry. If you enabled this API recently, wait a few minutes for the action to propagate to our systems and retry.\". Details: \"[{'message': 'Custom Search API has not been used in project 887312385568 before or it is disabled. Enable it by visiting https://console.developers.google.com/apis/api/customsearch.googleapis.com/overview?project=887312385568 then retry. If you enabled this API recently, wait a few minutes for the action to propagate to our systems and retry.', 'domain': 'usageLimits', 'reason': 'accessNotConfigured', 'extendedHelp': 'https://console.developers.google.com'}]\">",
+	"stack": "---------------------------------------------------------------------------
+HttpError                                 Traceback (most recent call last)
+Cell In[10], line 1
+----> 1 google_search.run(\"what are 3 websites that show you how to juggle?\")
+
+File c:\\ProgramData\\Anaconda3\\envs\\scrape_tester_100\\Lib\\site-packages\\langchain_community\\utilities\\google_search.py:101, in GoogleSearchAPIWrapper.run(self, query)
+     99 \"\"\"Run query through GoogleSearch and parse result.\"\"\"
+    100 snippets = []
+--> 101 results = self._google_search_results(query, num=self.k)
+    102 if len(results) == 0:
+    103     return \"No good Google Search Result was found\"
+
+File c:\\ProgramData\\Anaconda3\\envs\\scrape_tester_100\\Lib\\site-packages\\langchain_community\\utilities\\google_search.py:69, in GoogleSearchAPIWrapper._google_search_results(self, search_term, **kwargs)
+     67 if self.siterestrict:
+     68     cse = cse.siterestrict()
+---> 69 res = cse.list(q=search_term, cx=self.google_cse_id, **kwargs).execute()
+     70 return res.get(\"items\", [])
+
+File c:\\ProgramData\\Anaconda3\\envs\\scrape_tester_100\\Lib\\site-packages\\googleapiclient\\_helpers.py:130, in positional.<locals>.positional_decorator.<locals>.positional_wrapper(*args, **kwargs)
+    128     elif positional_parameters_enforcement == POSITIONAL_WARNING:
+    129         logger.warning(message)
+--> 130 return wrapped(*args, **kwargs)
+
+File c:\\ProgramData\\Anaconda3\\envs\\scrape_tester_100\\Lib\\site-packages\\googleapiclient\\http.py:938, in HttpRequest.execute(self, http, num_retries)
+    936     callback(resp)
+    937 if resp.status >= 300:
+--> 938     raise HttpError(resp, content, uri=self.uri)
+    939 return self.postproc(resp, content)
+
+HttpError: <HttpError 403 when requesting https://customsearch.googleapis.com/customsearch/v1?q=what+are+3+websites+that+show+you+how+to+juggle%3F&cx=27d0ce41028174656&num=10&key=AIzaSyAHupL3ITMxOAthQq8g9T7GuucIHiir5uo&alt=json returned \"Custom Search API has not been used in project 887312385568 before or it is disabled. Enable it by visiting https://console.developers.google.com/apis/api/customsearch.googleapis.com/overview?project=887312385568 then retry. If you enabled this API recently, wait a few minutes for the action to propagate to our systems and retry.\". Details: \"[{'message': 'Custom Search API has not been used in project 887312385568 before or it is disabled. Enable it by visiting https://console.developers.google.com/apis/api/customsearch.googleapis.com/overview?project=887312385568 then retry. If you enabled this API recently, wait a few minutes for the action to propagate to our systems and retry.', 'domain': 'usageLimits', 'reason': 'accessNotConfigured', 'extendedHelp': 'https://console.developers.google.com'}]\">"
+}
+
+
+https://console.developers.google.com/apis/api/customsearch.googleapis.com/overview?project=887312385568
 
 
