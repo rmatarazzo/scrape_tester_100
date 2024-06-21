@@ -26,6 +26,8 @@ tkinter
 
 streamlit
 
+faker
+
 
 
 video from Rich
@@ -107,4 +109,10 @@ https://console.developers.google.com/apis/api/customsearch.googleapis.com/overv
 
 
 ended at 8:48 on video
+
+from langchain.loaders import BaseLoader
+needs to be changed to:
+from langchain.document_loaders.base import BaseLoader
+
+from langchain_core.document_loaders.base import BaseBlobParser,BaseLoader
 
