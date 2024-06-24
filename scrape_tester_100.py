@@ -123,6 +123,27 @@ def test_links_concurrently(search_results):
             results.append(result)
     return results
 
+def generate_report(test_results):
+    success_count = sum(1 for result in test_results if result['status'] == 'success')
+    error_count = len(test_results) - success_count
+
+    report_lines = [
+        "Link Scrape Test Report",
+        f"Total Links Tested: {len(test_results)}",
+        f"Total Successes: {success_count}",
+        f"Total Errors: {error_count}",
+        "",
+        "Details:"
+    ]
+
+    for result in test_results:
+        if result['status'] == 'success':
+            report_lines.append(f"SUCCESS: {result['link']} - Title: {result['title']}")
+        else:
+            report_lines.append(f"ERROR: {result['link']} - Error: {result['error']}")
+
+    return "\n".join(report_lines)
+
 def main():
     # Create a Tkinter root window and hide it
     root = tk.Tk()
@@ -158,6 +179,13 @@ def main():
         with open(output_filename, 'w', encoding='utf-8') as f:
             json.dump(test_results, f, ensure_ascii=False, indent=4)
         print(f"Test results saved to {output_filename}")
+
+        # Generate the report
+        report = generate_report(test_results)
+        report_filename = timestamped_filename('links_scrape_report.txt')
+        with open(report_filename, 'w', encoding='utf-8') as f:
+            f.write(report)
+        print(f"Report saved to {report_filename}")
 
     else:
         print("No query provided. Exiting.")

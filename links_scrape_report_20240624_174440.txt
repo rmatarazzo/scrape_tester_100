@@ -1,0 +1,139 @@
+Link Scrape Test Report
+Total Links Tested: 102
+Total Successes: 98
+Total Errors: 4
+
+Details:
+SUCCESS: https://en.wikipedia.org/wiki/Bird - Title: Bird - Wikipedia
+SUCCESS: https://en.wikipedia.org/wiki/List_of_birds#:~:text=In%20total%20there%20are%20about,and%20all%20numbers%20are%20approximate. - Title: List of birds - Wikipedia
+SUCCESS: https://www.quora.com/What-are-the-most-widespread-bird-species-in-the-world#:~:text=The%20most%20common%20bird%20in,chicken%20(Gallus%20gallus%20domesticus). - Title: What are the most widespread bird species in the world? - Quora
+SUCCESS: https://www.careerpower.in/school/biology/birds-name#:~:text=Ans%3A%2020%20Birds%20name%20in,Kingfisher%2C%20Macaw%2C%20and%20Kiwi. - Title: Birds Names in English, List of 50 Birds Name
+SUCCESS: https://kids.nationalgeographic.com/animals/birds - Title: Birds
+SUCCESS: https://www.allaboutbirds.org/guide/browse/shape - Title: Browse by Shape, All About Birds, Cornell Lab of Ornithology
+SUCCESS: https://www.allaboutbirds.org/news/ - Title: Online bird guide, bird ID help, life history, bird sounds from Cornell All About Birds
+SUCCESS: https://birdsoftheworld.org/ - Title: Birds of the World - Cornell Lab of Ornithology
+SUCCESS: https://kidlingoo.com/birds-name-in-english/#:~:text=What%20is%20the%20name%20of,%2CQuail%2C%20Pelican%2C%20Kingfisher. - Title: Birds Name in English: Common 10 Birds Names For Kids
+SUCCESS: https://www.nationalgeographic.com/animals/birds - Title: Bird Pictures & Facts
+SUCCESS: https://www.cdc.gov/healthy-pets/about/birds.html - Title: Birds | Healthy Pets, Healthy People | CDC
+SUCCESS: https://www.audubon.org/bird-guide - Title: Guide to North American Birds | Audubon
+SUCCESS: https://en.wikipedia.org/wiki/The_Birds_(film) - Title: The Birds (film) - Wikipedia
+SUCCESS: https://www.nwf.org/Educational-Resources/Wildlife-Guide/Birds - Title: Birds | National Wildlife Federation
+SUCCESS: https://www.imdb.com/title/tt0056869/ - Title: The Birds (1963) - IMDb
+SUCCESS: https://www.birds.cornell.edu/home/ - Title: Cornell Lab of Ornithology—Home | Birds, Cornell Lab of Ornithology
+SUCCESS: https://ebird.org/home - Title: eBird - Discover a new world of birding...
+SUCCESS: https://birdsbarbershop.com/ - Title: Home - Birds Barbershop
+SUCCESS: https://naturalhistory.si.edu/research/vertebrate-zoology/birds - Title: Birds | Smithsonian National Museum of Natural History
+SUCCESS: https://www.bird.co/ - Title: Bird Micro-Electric Mobility: Electric Bikes and Scooters For Cities
+SUCCESS: https://www.audubon.org/ - Title: National Audubon Society
+SUCCESS: https://www.nps.gov/zion/learn/nature/birds.htm - Title: Birds - Zion National Park (U.S. National Park Service)
+SUCCESS: https://abcbirds.org/program/lost-birds/ - Title: The Search for Lost Birds
+SUCCESS: https://www.youtube.com/watch?v=vOXZkm9p_zY - Title: Imagine Dragons - Birds (Animated Video) - YouTube
+SUCCESS: https://www.3billionbirds.org/ - Title: #BringBirdsBack
+SUCCESS: https://www.youtube.com/playlist?list=PLVXzVkKhL8RsU6uikLeCqmhLVgTjiiyz8 - Title: Videos about Birds! - YouTube
+SUCCESS: https://www.stateofthebirds.org/ - Title: State of the Birds 2022
+SUCCESS: https://www.pbs.org/lifeofbirds/evolution/index.html - Title: The Life of Birds | Evolution
+SUCCESS: https://phys.org/tags/birds/ - Title: Science news tagged with birds
+SUCCESS: https://www.britannica.com/animal/bird-animal - Title: Bird | Description, Species, Classification, Types, & Facts | Britannica
+SUCCESS: https://birdsarentreal.com/ - Title: Birds Aren't Real | Birds Aren't Real
+SUCCESS: https://www.birds.com/ - Title: Discover and Learn about Birds - Birds.com
+SUCCESS: https://birdsconnectsea.org/ - Title: 
+SUCCESS: https://www.biologicaldiversity.org/species/birds/ - Title: Birds
+SUCCESS: https://www.usatoday.com/story/news/2024/06/20/biggest-bird-in-the-world/74129306007/ - Title: Biggest bird in the world: Top 10 largest birds by weight, height
+SUCCESS: https://www.nytimes.com/2024/05/26/science/bird-watching.html - Title: Don’t Let a Bird’s Feathers Fool You - The New York Times
+SUCCESS: https://www.birds.cornell.edu/home/bring-birds-back/ - Title: Nearly 3 Billion Birds Gone | Birds, Cornell Lab of Ornithology
+SUCCESS: https://www.nature.com/articles/s41893-020-0582-x - Title: Neonicotinoids and decline in bird biodiversity in the United States | Nature Sustainability
+SUCCESS: https://www.fws.gov/library/collections/threats-birds - Title: Threats to Birds | U.S. Fish & Wildlife Service
+SUCCESS: https://dec.ny.gov/nature/animals-fish-plants/birds - Title: Birds - NYSDEC
+SUCCESS: https://www.birdcount.org/ - Title: Great Backyard Bird Count – Join us each February when the world comes together to watch, learn about, count, and celebrate birds.
+SUCCESS: https://www.wbu.com/ - Title: Home | Wild Birds Unlimited
+SUCCESS: https://www.birdlife.org/birds/ - Title: Birds - BirdLife International
+SUCCESS: https://checklist.americanornithology.org/ - Title: AOU Checklist of North and Middle American Birds
+SUCCESS: https://nestwatch.org/learn/all-about-birdhouses/right-bird-right-house/ - Title: NestWatch | Right Bird, Right House - NestWatch
+SUCCESS: https://www.birdsofparadiseproject.org/ - Title: Birds-of-Paradise Project
+SUCCESS: https://www.birdseye.com/ - Title: Birds Eye Frozen Vegetables | Birds Eye
+SUCCESS: https://www.nps.gov/care/learn/nature/birds.htm - Title: Birds - Capitol Reef National Park (U.S. National Park Service)
+SUCCESS: https://www.3billionbirds.org/7-simple-actions - Title: 7 Simple Actions — #BringBirdsBack
+SUCCESS: https://apps.apple.com/us/app/merlin-bird-id-by-cornell-lab/id773457673 - Title: ‎Merlin Bird ID by Cornell Lab on the App Store
+SUCCESS: https://www.merriam-webster.com/dictionary/bird - Title: Bird Definition & Meaning - Merriam-Webster
+SUCCESS: https://ebird.org/explore - Title: Explore - eBird
+SUCCESS: https://evolution.berkeley.edu/what-are-evograms/the-origin-of-birds/ - Title: The origin of birds
+SUCCESS: https://www.aphis.usda.gov/livestock-poultry-disease/avian/avian-influenza/hpai-detections/wild-birds - Title: HPAI Detections in Wild Birds
+SUCCESS: https://yaledailynews.com/?p=189580 - Title: FEATURE: Naming Birds - Yale Daily News
+SUCCESS: https://birdcast.info/ - Title: BirdCast - Bird migration forecasts in real-time
+SUCCESS: https://www.birdsgeorgia.org/ - Title: Birds Georgia - Home
+SUCCESS: https://www.nhm.ac.uk/visit/exhibitions/birds-brilliant-bizarre.html - Title: Birds: Brilliant and Bizarre | Natural History Museum
+SUCCESS: https://www.birdscaribbean.org/ - Title: BirdsCaribbean
+SUCCESS: https://www.enchantedlearning.com/subjects/birds/ - Title: All About Birds - EnchantedLearning.com
+SUCCESS: https://www.rovio.com/ - Title: We craft games, entertainment, joy. - Welcome to Rovio
+SUCCESS: https://birdsofafeatherny.com/ - Title: Birds of a Feather
+SUCCESS: https://www.stateofthebirds.org/2016/ - Title: State of North America's Birds 2016
+SUCCESS: https://www.theguardian.com/environment/article/2024/jun/21/mosquitoes-hawaii-rare-bird-honeycreeper-malaria-wolbachia-bacteria - Title: Millions of mosquitoes released in Hawaii to save rare birds from extinction | Hawaii | The Guardian
+SUCCESS: https://play.google.com/store/apps/details?id=co.bird.android&hl=en_US - Title: Bird — Ride Electric - Apps on Google Play
+SUCCESS: https://www.usatoday.com/story/graphics/2024/04/27/how-do-birds-get-their-colors/73285448007/ - Title: Colorful birds make spring extra vibrant. But what gives them their hue
+SUCCESS: https://www.perkypet.com/morebirds - Title: More Birds | Wild Bird Feeders - Seed Feeders and Hummingbird Feeders
+SUCCESS: https://www.nature.com/articles/nature13531 - Title: Declines in insectivorous birds are associated with high neonicotinoid concentrations | Nature
+SUCCESS: https://tresbirds.com/ - Title: tres birds
+SUCCESS: https://www.fws.gov/program/migratory-birds - Title: Migratory Birds | U.S. Fish & Wildlife Service
+SUCCESS: https://www.birdsandblooms.com/ - Title: Birds and Blooms - Americas #1 Backyard Birding and Gardening Magazine
+ERROR: https://feederwatch.org/learn/feeding-birds/ - Error: Message: unknown error: net::ERR_CONNECTION_TIMED_OUT
+  (Session info: chrome=126.0.6478.115)
+Stacktrace:
+	GetHandleVerifier [0x009DC1C3+27395]
+	(No symbol) [0x00973DC4]
+	(No symbol) [0x00871B7F]
+	(No symbol) [0x0086A205]
+	(No symbol) [0x0085F219]
+	(No symbol) [0x0085E003]
+	(No symbol) [0x0085DBB3]
+	(No symbol) [0x0085D99E]
+	(No symbol) [0x0085BDE9]
+	(No symbol) [0x0085C2AB]
+	(No symbol) [0x00874364]
+	(No symbol) [0x008ED297]
+	(No symbol) [0x008D399C]
+	(No symbol) [0x008ECB24]
+	(No symbol) [0x008D3736]
+	(No symbol) [0x008A7541]
+	(No symbol) [0x008A80BD]
+	GetHandleVerifier [0x00C93A93+2876371]
+	GetHandleVerifier [0x00CE7F5D+3221661]
+	GetHandleVerifier [0x00A5D634+556916]
+	GetHandleVerifier [0x00A6474C+585868]
+	(No symbol) [0x0097CE04]
+	(No symbol) [0x00979818]
+	(No symbol) [0x009799B7]
+	(No symbol) [0x0096BF0E]
+	BaseThreadInitThunk [0x76387BA9+25]
+	RtlInitializeExceptionChain [0x7710C10B+107]
+	RtlClearBits [0x7710C08F+191]
+
+SUCCESS: https://birdnamesforbirds.wordpress.com/ - Title: Bird Names For Birds | Because birds don't need eponymous or honorific common names.
+ERROR: https://www.allbirds.com/ - Error: Could not reach host. Are you offline?
+SUCCESS: https://bronxzoo.com/things-to-do/exhibits/world-of-birds - Title: World of Birds - Bronx Zoo
+ERROR: https://birdtree.org/ - Error: Could not reach host. Are you offline?
+ERROR: https://www.polygon.com/24183338/elden-ring-dlc-shadow-erdtree-birds-loud-jumpscare - Error: Could not reach host. Are you offline?
+SUCCESS: https://www.livescience.com/animals/birds - Title: Birds - News and Scientific Articles on Live Science | Live Science
+SUCCESS: https://birdsoystershack.com/ - Title: birdsoystershack.com
+SUCCESS: https://myodfw.com/wildlife-viewing/species/birds - Title: Birds | Oregon Department of Fish & Wildlife
+SUCCESS: https://www.forbes.com/sites/scotttravers/2024/06/22/study-unearths-elemental-birds-and-their-origins-from-earth-wind-water-andfire/ - Title: Study Unearths ‘Elemental Birds’ And Their Origins From Earth, Wind, Water And…Fire?
+SUCCESS: https://www.massaudubon.org/nature-wildlife/birds/common-bird-diseases-parasites - Title: Common Bird Diseases & Parasites
+SUCCESS: https://birdsandbeanscoffee.com/ - Title: Bird Friendly Coffee | Organic & Fair Trade Certified – Birds & Beans Coffee
+SUCCESS: https://mamabirdsicecream.com/ - Title: Mama Bird's - Lovingly Crafted Ice Cream & Sweets
+SUCCESS: https://www.rspb.org.uk/birds-and-wildlife - Title: Birds and wildlife
+SUCCESS: https://order.wbu.com/ - Title: Wild Birds Unlimited
+SUCCESS: https://www.aba.org/birding-news/ - Title: Birding News brought to you by American Birding Association -
+SUCCESS: https://twitter.com/effinbirds?lang=en - Title: X
+SUCCESS: https://www.tiktok.com/@perimartins4/video/7381929880176446763 - Title: TikTok - Make Your Day
+SUCCESS: https://www.instagram.com/thebirdspapaya/?hl=en - Title: Sarah Nicole Landry (@thebirdspapaya) • Instagram photos and videos
+SUCCESS: https://books.google.com/books?id=M7EzEAAAQBAJ&pg=PA235&lpg=PA235&dq=birds&source=bl&ots=VNuDYbaPDw&sig=ACfU3U0x6baL-inz3RsiIM6nSZgPB7M2Pg&hl=en&sa=X&ved=2ahUKEwjvqtHLmfWGAxURElkFHWfhCPc4WhDoAXoECAUQAw - Title: Infectious Disease Ecology of Wild Birds - Google Books
+SUCCESS: https://peregrinefund.org/visit - Title: Visit | The Peregrine Fund
+SUCCESS: https://azstateparks.com/birds-of-arizona - Title: Birds of Arizona and where to find them! | Arizona State Parks
+SUCCESS: https://books.google.com/books?id=brMHAQAAIAAJ&pg=PA262&lpg=PA262&dq=birds&source=bl&ots=s-LfjLRazg&sig=ACfU3U1Y0lLiFcYLIDiUaDaAkZYHoFBfmA&hl=en&sa=X&ved=2ahUKEwjvqtHLmfWGAxURElkFHWfhCPc4WhDoAXoECAMQAw - Title: British Birds: An Illustrated Magazine Devoted to the Birds on the British List - Google Books
+SUCCESS: https://books.google.com/books?id=rQcRlx62RzcC&pg=PA419&lpg=PA419&dq=birds&source=bl&ots=durvaIjNyJ&sig=ACfU3U1r2Rmczvf1mAG4kAASc_snC8DzIw&hl=en&sa=X&ved=2ahUKEwjWobi4mfWGAxUnFlkFHaT1CpI4UBDoAXoECAMQAw - Title: The Biology of Birds - John Arthur Thomson - Google Books
+SUCCESS: https://www.worldbirdnames.org/new/ - Title: IOC World Bird List – Version 14.1
+SUCCESS: https://www.southernliving.com/garden/how-to-attract-birds - Title: How to Attract Birds to Your Garden
+SUCCESS: https://books.google.com/books?id=FTcIAQAAIAAJ&pg=PA222&lpg=PA222&dq=birds&source=bl&ots=7n4MsjYh8o&sig=ACfU3U1lKcvqvyUd44fZtDN9299Rrq9QUQ&hl=en&sa=X&ved=2ahUKEwjvqtHLmfWGAxURElkFHWfhCPc4WhDoAXoECAYQAw - Title: Side Lights on Birds: An Introduction to the Study of Bird Life - Herbert Knight Horsfield - Google Books
+SUCCESS: https://kids.britannica.com/kids/article/bird/352857 - Title: bird - Kids | Britannica Kids | Homework Help
+SUCCESS: https://books.google.com/books?id=ESHdEAAAQBAJ&pg=PA81&lpg=PA81&dq=birds&source=bl&ots=wSNhSC7d0A&sig=ACfU3U1hT3tFzz_mCe92cBaCkv1XXHHLAg&hl=en&sa=X&ved=2ahUKEwjvqtHLmfWGAxURElkFHWfhCPc4WhDoAXoECAQQAw - Title: The Birds and Seasons of New England - Wilson Flagg - Google Books
+SUCCESS: https://www.avma.org/resources/pet-owners/petcare/selecting-pet-bird - Title: Selecting a pet bird | American Veterinary Medical Association
+SUCCESS: https://avibase.bsc-eoc.org/ - Title: Avibase - The World Bird Database
