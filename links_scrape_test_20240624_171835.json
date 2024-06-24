@@ -1,0 +1,507 @@
+[
+    {
+        "link": "https://en.wikipedia.org/wiki/Mount_Monadnock#:~:text=Monadnock%20has%20long%20been%20cited,km)%20Monadnock%2DSunapee%20Greenway.",
+        "status": "error",
+        "error": "Message: 'chromedriver.exe' executable may have wrong permissions.\n"
+    },
+    {
+        "link": "https://www.cohostrail.org/#:~:text=Welcome%20to%20The%20Cohos%20Trail,far%2Dflung%20Pittsburg%2C%20NH.",
+        "status": "error",
+        "error": "Message: 'chromedriver.exe' executable may have wrong permissions.\n"
+    },
+    {
+        "link": "https://www.visitnh.gov/things-to-do/recreation/hiking",
+        "status": "error",
+        "error": "Message: 'chromedriver.exe' executable may have wrong permissions.\n"
+    },
+    {
+        "link": "https://www.alltrails.com/us/new-hampshire",
+        "status": "error",
+        "error": "Message: 'chromedriver.exe' executable may have wrong permissions.\n"
+    },
+    {
+        "link": "https://www.reddit.com/r/newhampshire/comments/13q8h5p/looking_for_nature_trails_and_easy_hikes_in_nh/",
+        "status": "error",
+        "error": "Message: 'chromedriver.exe' executable may have wrong permissions.\n"
+    },
+    {
+        "link": "https://gettinglosttogether.com/new-hampshire",
+        "status": "error",
+        "error": "Message: 'chromedriver.exe' executable may have wrong permissions.\n"
+    },
+    {
+        "link": "https://www.nhstateparks.org/things-to-do/hiking",
+        "status": "error",
+        "error": "Message: 'chromedriver.exe' executable may have wrong permissions.\n"
+    },
+    {
+        "link": "https://earlybirdonthetrail.com/best-hikes-and-views-new-hampshire/",
+        "status": "success",
+        "title": "Top 11 Best Hikes in New Hampshire with Amazing Views"
+    },
+    {
+        "link": "https://www.tripadvisor.com/Attractions-g28950-Activities-c61-t87-New_Hampshire.html",
+        "status": "success",
+        "title": "THE 10 BEST New Hampshire Hiking Trails (Updated 2024)"
+    },
+    {
+        "link": "https://www.newenglandwaterfalls.com/top25hikesnewhampshire.php",
+        "status": "success",
+        "title": "The Top 25 Hikes in New Hampshire"
+    },
+    {
+        "link": "https://www.alltrails.com/us/new-hampshire#:~:text=Ready%20to%20check%20out%20the,from%20nature%20lovers%20like%20you.",
+        "status": "success",
+        "title": "10 Best Trails and Hikes in New Hampshire | AllTrails"
+    },
+    {
+        "link": "https://www.alltrails.com/us/new-hampshire/hard",
+        "status": "success",
+        "title": "10 Best Hard Trails in New Hampshire | AllTrails"
+    },
+    {
+        "link": "https://notesfromthenorthcountry.com/2016/04/a-locals-must-do-new-hampshire-hikes/",
+        "status": "success",
+        "title": "A Local’s “Must Do” New Hampshire Hikes – Notes From the North Country"
+    },
+    {
+        "link": "https://www.reddit.com/r/newhampshire/comments/yvdr1r/hiking_nh/",
+        "status": "success",
+        "title": "Hiking NH : r/newhampshire"
+    },
+    {
+        "link": "https://www.outdoorproject.com/travel/20-must-do-hikes-new-hampshire",
+        "status": "success",
+        "title": "20 Must-Do Hikes in New Hampshire | Outdoor Project"
+    },
+    {
+        "link": "https://www.skijournal.com/new-hampshire-hiking-trails-2022/",
+        "status": "success",
+        "title": "New Hampshire hiking: 5 trails you should try - New England Ski Journal"
+    },
+    {
+        "link": "https://57hours.com/review/best-hikes-in-new-hampshire/",
+        "status": "success",
+        "title": "The Best Hikes in New Hampshire For Views Anyone Can Enjoy"
+    },
+    {
+        "link": "https://appalachiantrail.org/explore/explore-by-state/new-hampshire/",
+        "status": "success",
+        "title": "New Hampshire | Appalachian Trail Conservancy"
+    },
+    {
+        "link": "https://trailsnh.com/dashboard.php",
+        "status": "success",
+        "title": "TrailsNH Dashboard"
+    },
+    {
+        "link": "https://newenglandtrailconditions.com/nh/",
+        "status": "success",
+        "title": "New Hampshire - NewEnglandTrailConditions.com"
+    },
+    {
+        "link": "https://www.alltrails.com/lists/nh-trails--2",
+        "status": "success",
+        "title": "alltrails.com"
+    },
+    {
+        "link": "https://www.sunapeeregionproperty.com/the-great-outdoors/hiking-and-walking-trails/",
+        "status": "success",
+        "title": "Hiking Trails | New London and Lake Sunapee Region New Hampshire"
+    },
+    {
+        "link": "https://www.traillink.com/state/nh-trails/",
+        "status": "success",
+        "title": "New Hampshire Trails | New Hampshire Trail Maps | TrailLink"
+    },
+    {
+        "link": "https://www.visit-newhampshire.com/state/walking-and-hiking/",
+        "status": "success",
+        "title": "New Hampshire (NH) Walking and Hiking"
+    },
+    {
+        "link": "https://www.loonmtn.com/summer-activities/hiking",
+        "status": "success",
+        "title": "Hiking | Loon Mountain Resort, NH"
+    },
+    {
+        "link": "https://www.concordnh.gov/1033/Hiking-Trails",
+        "status": "success",
+        "title": "Trails | Concord, NH - Official Website"
+    },
+    {
+        "link": "https://www.hikingproject.com/directory/8009200/new-hampshire",
+        "status": "success",
+        "title": "Hiking Trails near New Hampshire"
+    },
+    {
+        "link": "https://www.planetware.com/new-hampshire/top-rated-hiking-trails-in-new-hampshire-us-nh-14.htm",
+        "status": "success",
+        "title": "14 Top-Rated Hiking Trails in New Hampshire | PlanetWare"
+    },
+    {
+        "link": "https://www.visitwhitemountains.com/things-to-do/outdoors/hiking-trails/",
+        "status": "success",
+        "title": "White Mountains Hiking Trails | Routes, Maps & Safety Tips"
+    },
+    {
+        "link": "https://www.hopkinton-nh.gov/recreation/pages/local-hiking-trails-detail",
+        "status": "success",
+        "title": "Local Hiking Trails in Detail | Hopkinton NH"
+    },
+    {
+        "link": "https://www.outdoors.org/resources/amc-outdoors/destinations-travel/6-often-overlooked-hikes-in-southern-new-hampshire/",
+        "status": "success",
+        "title": "6 Often Overlooked Hikes in Southern New Hampshire | Appalachian Mountain Club (AMC)"
+    },
+    {
+        "link": "https://www.madison-nh.org/wp-content/uploads/2018/07/Madison-Trails-Map-Brochure-Final-For-Distribution.pdf",
+        "status": "success",
+        "title": ""
+    },
+    {
+        "link": "https://www.fs.usda.gov/activity/whitemountain/recreation/hiking",
+        "status": "success",
+        "title": "White Mountain National Forest - Hiking"
+    },
+    {
+        "link": "https://www.ci.durham.nh.us/trails/trail-maps",
+        "status": "success",
+        "title": "TRAIL MAPS | The Town of Durham New Hampshire"
+    },
+    {
+        "link": "https://www.nhmountainhiking.com/hike/lists/maps.html",
+        "status": "success",
+        "title": "Hiking Resources"
+    },
+    {
+        "link": "https://www.trailfinder.info/",
+        "status": "success",
+        "title": "Trail Finder : Find Your Next Adventure"
+    },
+    {
+        "link": "https://www.cohostrail.org/",
+        "status": "success",
+        "title": "Cohos Trail – New Hampshire – Cohos Trail – New Hampshire"
+    },
+    {
+        "link": "https://kancamagushighway.com/kancamagus-highway-hiking-trails-nh/",
+        "status": "success",
+        "title": "Kancamagus Highway Hiking Trails NH – Kancamagus Scenic Byway: The Kancamagus Highway"
+    },
+    {
+        "link": "https://www.quora.com/What-are-some-good-hiking-routes-to-see-waterfalls-in-Southern-New-Hampshire",
+        "status": "success",
+        "title": "What are some good hiking routes to see waterfalls in Southern New Hampshire? - Quora"
+    },
+    {
+        "link": "https://www.northeasthikes.com/new-hampshire-hiking-trails/",
+        "status": "success",
+        "title": "Explore Great New Hampshire Hiking Trails - Northeast Hikes"
+    },
+    {
+        "link": "https://newfoundlake.org/hiking/",
+        "status": "success",
+        "title": "TRAILS - Newfound Lake Region Association"
+    },
+    {
+        "link": "https://www.tripadvisor.com/ShowTopic-g28950-i526-k3635076-Easy_to_moderate_hiking_trails-New_Hampshire.html",
+        "status": "success",
+        "title": "Easy to moderate hiking trails - New Hampshire Forum - Tripadvisor"
+    },
+    {
+        "link": "http://www.nhfamilyhikes.com/",
+        "status": "success",
+        "title": "NH Family Hikes"
+    },
+    {
+        "link": "https://www.washingtonnh.org/conservation-commission/pages/local-trails-and-sights",
+        "status": "success",
+        "title": "Local Trails and Sights | Washington NH"
+    },
+    {
+        "link": "https://www.komoot.com/guide/108374/mountain-hikes-in-new-hampshire",
+        "status": "success",
+        "title": "Top 9 Mountain Hiking Trails in New Hampshire | Komoot"
+    },
+    {
+        "link": "https://seltnh.org/trails/",
+        "status": "success",
+        "title": "Trails and Trail Guides - SELT"
+    },
+    {
+        "link": "https://harriscenter.org/trails-grounds-facilities/trails",
+        "status": "success",
+        "title": "Harris Center Trails"
+    },
+    {
+        "link": "https://www.visit-newhampshire.com/seacoast/walking-and-hiking/",
+        "status": "success",
+        "title": "New Hampshire (NH) Walking and Hiking in Seacoast Region"
+    },
+    {
+        "link": "https://backpackinglight.com/member-trip-reports/white-mountains-new-hampshire/",
+        "status": "success",
+        "title": "White Mountains, New Hampshire - Backpacking Light"
+    },
+    {
+        "link": "https://www.newburynh.org/sites/g/files/vyhlif4761/f/pages/finalmp2027newbury_hiking_trails.pdf",
+        "status": "success",
+        "title": ""
+    },
+    {
+        "link": "https://newengland.com/travel/new-hampshire/best-hiking-trails-in-new-hampshire/",
+        "status": "success",
+        "title": "Best Hiking Trails in New Hampshire - New England"
+    },
+    {
+        "link": "https://www.wikiloc.com/trails/hiking/united-states/new-hampshire",
+        "status": "success",
+        "title": "The Best Hiking Trails in New Hampshire (United States) | Wikiloc"
+    },
+    {
+        "link": "https://mygonorth.com/things-to-do/hiking/",
+        "status": "success",
+        "title": "Hiking in New Hampshire | Things to Do | MyGoNorth"
+    },
+    {
+        "link": "https://www.youtube.com/watch?v=Asl-Ew_7rsE",
+        "status": "success",
+        "title": "Hiking The Most Scenic Trail in New Hampshire! | White Mountains NH - YouTube"
+    },
+    {
+        "link": "https://www.swanzeynh.gov/community/trail_information.php",
+        "status": "success",
+        "title": "Town of Swanzey"
+    },
+    {
+        "link": "https://bethlehemnh.org/what-to-do/hiking/",
+        "status": "success",
+        "title": "Day Hikes in White Mountains | Bethlehem, NH"
+    },
+    {
+        "link": "https://www.vftt.org/threads/good-spring-hikes-in-nh.52832/",
+        "status": "success",
+        "title": "Good Spring Hikes In NH | New England & New York Backcountry & Hiking Forum"
+    },
+    {
+        "link": "https://www.hikingproject.com/directory/8009201/northern-new-hampshire",
+        "status": "success",
+        "title": "Hiking Trails near Northern New Hampshire"
+    },
+    {
+        "link": "https://www.summitpost.org/phpBB3/new-hampshire-short-hiking-recommendations-above-treeline-t82715.html",
+        "status": "success",
+        "title": ""
+    },
+    {
+        "link": "https://lakewinnipesaukee.net/lakes-region/squam-hiking-trails/",
+        "status": "success",
+        "title": "New Hampshire Hiking Trails - Hiking Trails Squam Lake New Hampshire"
+    },
+    {
+        "link": "https://www.owlsnestresort.com/top-7-places-to-hike-in-new-hampshires-lakes-region/",
+        "status": "success",
+        "title": "Top 7 Places to Hike in New Hampshire’s Lakes Region - Owl's Nest Resort"
+    },
+    {
+        "link": "https://www.alton.nh.gov/site-page/parks-trails-and-hiking",
+        "status": "success",
+        "title": "Parks, Trails, and Hiking | Town of Alton"
+    },
+    {
+        "link": "https://www.gaiagps.com/hike/city/united-states/new-hampshire/manchester/",
+        "status": "success",
+        "title": "Best Hiking Trails near Manchester, New Hampshire - New Hampshire | Gaia GPS"
+    },
+    {
+        "link": "https://www.nl-nhcc.com/trails/nlcctrails.htm",
+        "status": "success",
+        "title": "New London Trails List"
+    },
+    {
+        "link": "https://lakewinnipesaukee.info/listing/hiking-trails/",
+        "status": "success",
+        "title": "Hiking Trails | Lake Winnipesaukee, NH"
+    },
+    {
+        "link": "https://www.peterboroughnh.gov/community/parks_trails___open_spaces_/hiking_trails___open_spaces.php",
+        "status": "success",
+        "title": "Welcome to Peterborough, NH"
+    },
+    {
+        "link": "https://centralnh.org/activity/hiking-trails/",
+        "status": "success",
+        "title": "Hiking & Trails - Central New Hampshire Chamber of Commerce"
+    },
+    {
+        "link": "https://thayersinn.com/white-mountain-attractions/easy-hikes-in-the-white-mountains-a-roundup/",
+        "status": "success",
+        "title": "Easy Hikes in the White Mountains– A Roundup | Thayers Inn"
+    },
+    {
+        "link": "https://www.monadnockconservancy.org/explore/hiking",
+        "status": "success",
+        "title": "Hiking - Monadnock Conservancy"
+    },
+    {
+        "link": "https://www.visitnh.gov/Blog/10-Popular-Winter-Hikes",
+        "status": "success",
+        "title": "Visit NH : 10 Popular Winter Hikes"
+    },
+    {
+        "link": "https://westwardshores.com/blog/the-best-hiking-trails-near-ossipee-nh",
+        "status": "success",
+        "title": "The Best Hiking Trails Near Ossipee, NH | Westward Shores Cottages & RV Resort"
+    },
+    {
+        "link": "https://www.amazon.com/New-Hampshire-Hiking-Foghorn-Outdoors/dp/1566919355",
+        "status": "success",
+        "title": "New Hampshire Hiking (Foghorn Outdoors): Day Hikes, Kid-Friendly Trails, and Backpacking Treks: Lanza, Michael: 9781566919357: Amazon.com: Books"
+    },
+    {
+        "link": "https://amcstore.outdoors.org/products/southern-new-hampshire-trail-guide-5th-edition-1",
+        "status": "success",
+        "title": "Southern New Hampshire Trail Guide, 5th Edition - Appalachian Mountain Club Store"
+    },
+    {
+        "link": "https://www.farmington.nh.us/parks-and-recreation-department/faq/are-there-any-local-hiking-trails",
+        "status": "success",
+        "title": "Are there any local hiking trails? | Farmington NH"
+    },
+    {
+        "link": "https://pro.libertymountain.com/travel/white-mountains-nh-hiking-trails.html",
+        "status": "success",
+        "title": "WHITE MOUNTAINS NH HIKING TRAILS"
+    },
+    {
+        "link": "https://discovermonadnock.com/outdoors/hiking/",
+        "status": "success",
+        "title": "Hiking | Discover Monadnock"
+    },
+    {
+        "link": "https://www.nhstateparks.org/find-parks-trails/franconia-notch-state-park",
+        "status": "success",
+        "title": "NH State Parks - Franconia Notch State Park"
+    },
+    {
+        "link": "https://www.waterville.com/hiking",
+        "status": "success",
+        "title": "Hiking — Waterville Valley Resort"
+    },
+    {
+        "link": "https://www.youtube.com/watch?v=R9_xd2_APDI",
+        "status": "success",
+        "title": "The 5 EASIEST Terrifying 25 Elective Hiking Trails | White Mountains NH - YouTube"
+    },
+    {
+        "link": "https://www.gunstock.com/summer/hiking-biking-fishing/",
+        "status": "success",
+        "title": "New Hampshire Hiking, Biking & Fishing at Gunstock NH"
+    },
+    {
+        "link": "https://www.bringfido.com/attraction/trails/state/new_hampshire/",
+        "status": "success",
+        "title": "Dog Friendly Hiking Trails in New Hampshire - BringFido"
+    },
+    {
+        "link": "https://www.greateruppervalley.com/2018/07/31/177885/13-nh-vt-trails-you-ll-want-to-check-off-your-must-hike-bucket-list",
+        "status": "success",
+        "title": "13 NH/VT Trails You’ll Want To Check Off Your Must-hike Bucket List | GreaterUpperValley.com"
+    },
+    {
+        "link": "https://www.nhgeodata.unh.edu/datasets/7274322793b74f33a36fb3c2419886be",
+        "status": "success",
+        "title": "New Hampshire Geodata Portal"
+    },
+    {
+        "link": "https://sugarhillinn.com/blog/2022/05/best-hiking-in-new-hampshire/",
+        "status": "success",
+        "title": "10 Best Places for Hiking in New Hampshire This Summer"
+    },
+    {
+        "link": "https://www.gaiagps.com/hike/city/united-states/new-hampshire/nashua/",
+        "status": "success",
+        "title": "Best Hiking Trails near Nashua, New Hampshire - New Hampshire | Gaia GPS"
+    },
+    {
+        "link": "https://www.newenglandtrailconditions.com/",
+        "status": "success",
+        "title": "NewEnglandTrailConditions.com: Hiking Trail Conditions For All of New England, Every Season of the Year - NewEnglandTrailConditions.com"
+    },
+    {
+        "link": "https://orfordnh.us/recreation/area-hiking-trails/",
+        "status": "success",
+        "title": "Area Hiking Trails – Town of Orford"
+    },
+    {
+        "link": "http://www.trailspotting.com/2024/02/best-trails-new-hampshire-lakes-region.html",
+        "status": "success",
+        "title": "Best Trails NH: Lakes Region"
+    },
+    {
+        "link": "https://lakesregionjellystone.com/blog/the-best-hiking-trails-near-manchester-nh",
+        "status": "success",
+        "title": "The Best Hiking Trails Near Manchester, NH | Yogi Bear’s Jellystone Park™: Lakes Region in Milton, NH"
+    },
+    {
+        "link": "https://follansbeeinn.com/hiking/",
+        "status": "success",
+        "title": "Hiking in New Hampshire: Visit Follansbee Inn, Award Winning B&B"
+    },
+    {
+        "link": "https://www.town.rye.nh.us/conservation-commission/pages/trails",
+        "status": "success",
+        "title": "Trails | Rye NH"
+    },
+    {
+        "link": "https://www.newenglandwaterfalls.com/hikingnorthconway.php",
+        "status": "error",
+        "error": "Message: unknown error: net::ERR_CONNECTION_TIMED_OUT\n  (Session info: chrome=126.0.6478.115)\nStacktrace:\n\tGetHandleVerifier [0x009DC1C3+27395]\n\t(No symbol) [0x00973DC4]\n\t(No symbol) [0x00871B7F]\n\t(No symbol) [0x0086A205]\n\t(No symbol) [0x0085F219]\n\t(No symbol) [0x0085E003]\n\t(No symbol) [0x0085DBB3]\n\t(No symbol) [0x0085D99E]\n\t(No symbol) [0x0085BDE9]\n\t(No symbol) [0x0085C2AB]\n\t(No symbol) [0x00874364]\n\t(No symbol) [0x008ED297]\n\t(No symbol) [0x008D399C]\n\t(No symbol) [0x008ECB24]\n\t(No symbol) [0x008D3736]\n\t(No symbol) [0x008A7541]\n\t(No symbol) [0x008A80BD]\n\tGetHandleVerifier [0x00C93A93+2876371]\n\tGetHandleVerifier [0x00CE7F5D+3221661]\n\tGetHandleVerifier [0x00A5D634+556916]\n\tGetHandleVerifier [0x00A6474C+585868]\n\t(No symbol) [0x0097CE04]\n\t(No symbol) [0x00979818]\n\t(No symbol) [0x009799B7]\n\t(No symbol) [0x0096BF0E]\n\tBaseThreadInitThunk [0x76387BA9+25]\n\tRtlInitializeExceptionChain [0x7710C10B+107]\n\tRtlClearBits [0x7710C08F+191]\n"
+    },
+    {
+        "link": "https://www.castleintheclouds.org/things-to-do/hiking-walking-trails/",
+        "status": "success",
+        "title": "Hiking & Walking Trails - Castle in the Clouds"
+    },
+    {
+        "link": "https://innatellisriver.com/itinerary/choose-a-hike-from-easy-to-challenging",
+        "status": "success",
+        "title": "Choose a Hike from Easy to Challenging Jackson NH Lodging - Romantic Getaways in New EnglandInn at Ellis River"
+    },
+    {
+        "link": "https://flipsockz.com/blogs/trail-blazing/10-best-hiking-trails-in-new-hampshire",
+        "status": "success",
+        "title": "10 Best Hiking Trails in New Hampshire – FlipSockz"
+    },
+    {
+        "link": "https://www.yelp.com/search?find_desc=Hiking+Trails&find_loc=Nashua%2C+NH",
+        "status": "success",
+        "title": "TOP 10 BEST Hiking Trails in Nashua, NH - Updated 2024 - Yelp"
+    },
+    {
+        "link": "https://www.strava.com/routes/hiking/usa/new-hampshire",
+        "status": "success",
+        "title": "The Best Hiking Trails in New Hampshire | Strava"
+    },
+    {
+        "link": "https://lakewinnipesaukee.net/lakes-region/lake-region-hiking-trails/",
+        "status": "success",
+        "title": "Lake Winnipesaukee Hiking Trails - Skiing In Lakes Region NH"
+    },
+    {
+        "link": "https://www.nhlakesrealty.com/home/hiking-trails-in-nh/",
+        "status": "success",
+        "title": "Hiking Trails in NH - Lake Houses for Sale - Lady of the Lake Realty"
+    },
+    {
+        "link": "https://www.nottingham-nh.gov/conservation-commission/pages/trail-maps",
+        "status": "success",
+        "title": "Trail Maps | Town of Nottingham NH"
+    },
+    {
+        "link": "https://www.onlyinyourstate.com/new-hampshire/10-brief-beautiful-hikes-nh/",
+        "status": "success",
+        "title": "Easy Trails In NH Under An Hour"
+    }
+]

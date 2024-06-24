@@ -8,6 +8,7 @@ from selenium import webdriver
 from selenium.webdriver.common.by import By
 from selenium.webdriver.chrome.service import Service
 from webdriver_manager.chrome import ChromeDriverManager
+from concurrent.futures import ThreadPoolExecutor, as_completed
 import tkinter as tk
 from tkinter import simpledialog
 
@@ -94,6 +95,34 @@ class GoogleSearchLoader:
             json.dump(results, json_file, ensure_ascii=False, indent=4)
         return json_filename
 
+def get_page_title(link):
+    try:
+        service = Service(ChromeDriverManager().install())
+        driver = webdriver.Chrome(service=service)
+        driver.get(link)
+        title = driver.title
+        driver.quit()
+        return title, None
+    except Exception as e:
+        return None, str(e)
+
+def test_link(link_info):
+    link = link_info['link']
+    title, error = get_page_title(link)
+    if error:
+        return {'link': link, 'status': 'error', 'error': error}
+    else:
+        return {'link': link, 'status': 'success', 'title': title}
+
+def test_links_concurrently(search_results):
+    results = []
+    with ThreadPoolExecutor(max_workers=10) as executor:
+        futures = {executor.submit(test_link, item): item for item in search_results}
+        for future in as_completed(futures):
+            result = future.result()
+            results.append(result)
+    return results
+
 def main():
     # Create a Tkinter root window and hide it
     root = tk.Tk()
@@ -118,6 +147,18 @@ def main():
         # Save the parsed search results to a JSON file
         json_filename = loader.save_results_to_json(search_results)
         print(f"Parsed search results saved to {json_filename}")
+
+        # Load the parsed search results from the JSON file
+        with open(json_filename, 'r', encoding='utf-8') as f:
+            search_results = json.load(f)
+
+        # Test the links concurrently and save the results
+        test_results = test_links_concurrently(search_results)
+        output_filename = timestamped_filename('links_scrape_test.json')
+        with open(output_filename, 'w', encoding='utf-8') as f:
+            json.dump(test_results, f, ensure_ascii=False, indent=4)
+        print(f"Test results saved to {output_filename}")
+
     else:
         print("No query provided. Exiting.")
 
