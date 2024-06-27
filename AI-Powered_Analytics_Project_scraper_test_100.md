@@ -151,7 +151,9 @@ generate_report(results): Produces a detailed report of the scraping results.
 	• Hyperlinks to actual complete code  
 
 ### Actual Working Product Code: 
-    Functions, modules, packages, documentation 
+    Packages, modules, functions, documentation
+		packages that are required (from other people)
+		custom packages, modules, classes, functions that you created
     
 ## Application Instructions:
 
@@ -162,5 +164,14 @@ generate_report(results): Produces a detailed report of the scraping results.
             Configuration, data sets, URLs, input and output folder structure, etc. 
         
     • Additional Important Guidelines for Product Usability (for others to use your work products):
+	
+## Future Enhancements:
+	Later MVPs, i.e., v2, v3, vn
 
-
+## Lessons Learned:
+	Any skills or knowledge acquired by doing the projects
+	Hard and software skills:
+		Coding, Tools, packages
+		Software Engineering Specification and any other technical hands-on work
+		Project Management, communication, collaboration, strategy, delivery
+		Presentation
