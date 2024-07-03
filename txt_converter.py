@@ -27,7 +27,25 @@ df = pd.DataFrame(details, columns=['Status', 'URL', 'Metadata'])
 
 # Step 5: Format the DataFrame for readability
 df['Metadata'] = df['Metadata'].apply(lambda x: x.replace("{", "").replace("}", "").replace("'", "").replace(",", "\n"))
-df.head()
 
-# Output the formatted DataFrame
+# Add header information
+header = [
+    "Link Scrape Test Report",
+    f"Search Query: {header_info['Search Query']}",
+    f"Total Links Tested: {header_info['Total Links Tested']}",
+    f"Total Successes: {header_info['Total Successes']}",
+    f"Total Errors: {header_info['Total Errors']}",
+    ""
+]
+header_str = "\n".join(header)
+
+# Save the DataFrame to a CSV file
+output_csv_path = 'C:/Users/rmata/Desktop/00_PythonWIP/Projects/scrape_tester_100/links_scrape_report_formatted.csv'
+with open(output_csv_path, 'w') as f:
+    f.write(header_str + "\n")
+    df.to_csv(f, index=False)
+
+# Display the DataFrame in a more readable format
+pd.set_option('display.max_colwidth', None)
+print(header_str)
 print(df)
