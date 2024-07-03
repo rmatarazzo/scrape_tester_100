@@ -1,7 +1,12 @@
 import pandas as pd
+import os
 
 # Step 1: Read the content of the text file
 file_path = 'C:/Users/rmata/Desktop/00_PythonWIP/Projects/scrape_tester_100/links_scrape_report_20240702_204125.txt'
+
+# Check if the file exists
+if not os.path.exists(file_path):
+    raise FileNotFoundError(f"The file {file_path} does not exist.")
 
 with open(file_path, 'r') as file:
     lines = file.readlines()
@@ -41,9 +46,13 @@ header_str = "\n".join(header)
 
 # Save the DataFrame to a CSV file
 output_csv_path = 'C:/Users/rmata/Desktop/00_PythonWIP/Projects/scrape_tester_100/links_scrape_report_formatted.csv'
-with open(output_csv_path, 'w') as f:
-    f.write(header_str + "\n")
-    df.to_csv(f, index=False)
+try:
+    with open(output_csv_path, 'w') as f:
+        f.write(header_str + "\n")
+        df.to_csv(f, index=False)
+    print(f"File saved successfully to {output_csv_path}")
+except Exception as e:
+    print(f"An error occurred while saving the file: {e}")
 
 # Display the DataFrame in a more readable format
 pd.set_option('display.max_colwidth', None)
