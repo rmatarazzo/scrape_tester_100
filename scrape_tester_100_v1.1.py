@@ -7,6 +7,9 @@ from bs4 import BeautifulSoup
 from selenium import webdriver
 from selenium.webdriver.common.by import By
 from selenium.webdriver.chrome.service import Service
+from selenium.webdriver.chrome.options import Options
+from selenium.webdriver.support.ui import WebDriverWait
+from selenium.webdriver.support import expected_conditions as EC
 from webdriver_manager.chrome import ChromeDriverManager
 from concurrent.futures import ThreadPoolExecutor, as_completed
 import tkinter as tk
@@ -24,36 +27,20 @@ class GoogleSearchLoader:
 
     def load_and_scroll(self):
         """Load search results and scroll until at least 100 items or no new items are found."""
+        options = Options()
+        options.add_argument('--headless')
+        options.add_argument('--disable-gpu')
         service = Service(ChromeDriverManager().install())
-        driver = webdriver.Chrome(service=service)
+        driver = webdriver.Chrome(service=service, options=options)
         driver.get(f"https://www.google.com/search?q={quote_plus(self.query)}")
 
         num_results = 0
-        last_height = driver.execute_script("return document.body.scrollHeight")
         collected_html = ""
+        wait = WebDriverWait(driver, 10)
 
         while num_results < 100:
-            driver.execute_script("window.scrollTo(0, document.body.scrollHeight);")
-            time.sleep(10)  # Increased delay to allow more content to load
-            
-            new_height = driver.execute_script("return document.body.scrollHeight")
-            if new_height == last_height:
-                try:
-                    next_button = driver.find_element(By.CSS_SELECTOR, 'a#pnnext')
-                    next_button.click()
-                    time.sleep(10)  # Wait for the next page to load
-                    last_height = driver.execute_script("return document.body.scrollHeight")
-                except Exception:
-                    try:
-                        more_results_button = driver.find_element(By.XPATH, '//a[contains(., "More results")]')
-                        more_results_button.click()
-                        time.sleep(10)  # Wait for more results to load
-                        last_height = driver.execute_script("return document.body.scrollHeight")
-                    except Exception:
-                        print("No more pages or unable to load more results.")
-                        break  # No new items or next/more results button was not found
-            else:
-                last_height = new_height
+            # Wait for the search results to load
+            wait.until(EC.presence_of_all_elements_located((By.CSS_SELECTOR, 'div.g')))
             
             search_items = driver.find_elements(By.CSS_SELECTOR, 'div.g')
             num_results += len(search_items)
@@ -61,6 +48,22 @@ class GoogleSearchLoader:
 
             if num_results >= 100:
                 break
+
+            # Try to find the "Next" button and click it
+            try:
+                next_button = wait.until(
+                    EC.element_to_be_clickable((By.CSS_SELECTOR, 'a#pnnext'))
+                )
+                next_button.click()
+            except Exception:
+                try:
+                    more_results_button = wait.until(
+                        EC.element_to_be_clickable((By.XPATH, '//a[contains(., "More results")]'))
+                    )
+                    more_results_button.click()
+                except Exception:
+                    print("No more pages or unable to load more results.")
+                    break  # No new items or next/more results button was not found
         
         driver.quit()
         return collected_html
@@ -104,8 +107,11 @@ class GoogleSearchLoader:
 
 def get_page_title(link):
     try:
+        options = Options()
+        options.add_argument('--headless')
+        options.add_argument('--disable-gpu')
         service = Service(ChromeDriverManager().install())
-        driver = webdriver.Chrome(service=service)
+        driver = webdriver.Chrome(service=service, options=options)
         driver.get(link)
         title = driver.title
         driver.quit()

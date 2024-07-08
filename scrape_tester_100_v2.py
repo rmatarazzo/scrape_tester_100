@@ -30,8 +30,7 @@ class GoogleSearchLoader:
 
         num_results = 0
         last_height = driver.execute_script("return document.body.scrollHeight")
-        collected_html = ""
-
+        
         while num_results < 100:
             driver.execute_script("window.scrollTo(0, document.body.scrollHeight);")
             time.sleep(10)  # Increased delay to allow more content to load
@@ -56,24 +55,18 @@ class GoogleSearchLoader:
                 last_height = new_height
             
             search_items = driver.find_elements(By.CSS_SELECTOR, 'div.g')
-            num_results += len(search_items)
-            collected_html += driver.page_source
-
-            if num_results >= 100:
-                break
+            num_results = len(search_items)
         
+        html_content = driver.page_source
         driver.quit()
-        return collected_html
+        return html_content
 
     def save_html(self, html_content, base_filename="google_search_results.html"):
-        """Save the HTML content to a file, appending if the file exists."""
-        if os.path.exists(base_filename):
-            with open(base_filename, 'a', encoding='utf-8') as file:
-                file.write(html_content)
-        else:
-            with open(base_filename, 'w', encoding='utf-8') as file:
-                file.write(html_content)
-        return base_filename
+        """Save the HTML content to a timestamped file."""
+        timestamped_file = timestamped_filename(base_filename)
+        with open(timestamped_file, 'w', encoding='utf-8') as file:
+            file.write(html_content)
+        return timestamped_file
 
     def save_results_to_json(self, results, base_filename="parsed_search_results.json"):
         """Save the parsed results to a timestamped JSON file."""
@@ -81,6 +74,7 @@ class GoogleSearchLoader:
         with open(json_filename, "w", encoding='utf-8') as json_file:
             json.dump(results, json_file, ensure_ascii=False, indent=4)
         return json_filename
+
 
     def parse_items(self, html_content):
         """Parse search items from HTML content using BeautifulSoup."""
