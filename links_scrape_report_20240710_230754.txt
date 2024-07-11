@@ -1,0 +1,170 @@
+Link Scrape Test Report for query: masshole
+Total Links Tested: 100
+Total Successes: 95
+Total Errors: 5
+
+Details:
+ERROR: /search?sca_esv=551c7f8375920942&sca_upv=1&q=Mass+Hole+Donuts&si=ACC90nxp5PteNmYcqmoXxlml2xQ2QM8noJmQUYMLhp4J5SbXM1jfscFEXFKJgLQXEIot9eYZRp13WrWdq5Y5rj6-yCYqdH9YnIh5R0WAOOaHLH_i9G9ejCHGjI-g_MtaLrGU3wCd4UKGSabtN-4geaO7gXc7c6agZVpI8mL7zeU7cDLFyr-mdY-SdFnozv4s552ZH5WjhJDRliHIZQrYrgVHIa2t_Xp7yrvV0ip-ocK0Z4IcZEbNeiPfx6nQrZC7aUaQNzAgew59pWPMvOH3R1r2ek0c2vBdcpSyLGc_wz2vD_1_bDmaLOx2VdxdrJUFywqQXMjVZccH&sa=X&ved=2ahUKEwjyvLWqgJ6HAxUnlYkEHdB2AREQ6RN6BAgiEAE - Error: Message: invalid argument
+  (Session info: chrome-headless-shell=126.0.6478.127)
+Stacktrace:
+	GetHandleVerifier [0x0090C1C3+27395]
+	(No symbol) [0x008A3DC4]
+	(No symbol) [0x007A19FD]
+	(No symbol) [0x0078D216]
+	(No symbol) [0x0078BC73]
+	(No symbol) [0x0078C2AB]
+	(No symbol) [0x007A4364]
+	(No symbol) [0x0081D297]
+	(No symbol) [0x0080399C]
+	(No symbol) [0x0081CB24]
+	(No symbol) [0x00803736]
+	(No symbol) [0x007D7541]
+	(No symbol) [0x007D80BD]
+	GetHandleVerifier [0x00BC3A93+2876371]
+	GetHandleVerifier [0x00C17F5D+3221661]
+	GetHandleVerifier [0x0098D634+556916]
+	GetHandleVerifier [0x0099474C+585868]
+	(No symbol) [0x008ACE04]
+	(No symbol) [0x008A9818]
+	(No symbol) [0x008A99B7]
+	(No symbol) [0x0089BF0E]
+	BaseThreadInitThunk [0x75247BA9+25]
+	RtlInitializeExceptionChain [0x7703C10B+107]
+	RtlClearBits [0x7703C08F+191]
+
+SUCCESS: https://www.fodors.com/world/north-america/usa/massachusetts/experiences/news/what-is-a-masshole-and-where-did-the-word-come-from - Title: Access denied - Description: No description - Keywords: No keywords
+SUCCESS: https://en.wiktionary.org/wiki/Masshole - Title: Masshole - Wiktionary, the free dictionary - Description: No description - Keywords: No keywords
+SUCCESS: https://massholelobstertruck.com/ - Title: Masshole Lobster Roll Food Truck - San Antonio - Description: Masshole Lobster Truck brings authentic Lobster Rolls to San Antonio. Check our Food Truck schedule and join us for some delicious local seafood. - Keywords: No keywords
+SUCCESS: https://www.amazon.com/stores/Sullys/Masshole%C2%AE/page/DEBEDAAF-A572-4D8D-8F86-BC01BB8C4DF4 - Title: Amazon.com: Sully's: Masshole® - Description: Masshole® Collection - Keywords: No keywords
+SUCCESS: https://www.boston.com/community/travel/boston-com-readers-share-their-definition-of-a-masshole/ - Title: Boston.com readers share their definition of a 'Masshole' - Description: More than a hundred Boston.com readers share their definition of a 'Masshole.' Read what they had to say on Boston.com. - Keywords: No keywords
+SUCCESS: https://www.boston.com/community/travel/whats-your-definition-of-a-masshole/ - Title: What's your definition of a 'Masshole?' - Description: What's your definition of a 'Masshole?' Would you describe yourself as one or know of one? Share with us on Boston.com. - Keywords: No keywords
+SUCCESS: https://www.sullysbrand.com/collections/masshole - Title: Masshole® – Sully's Brand - Description: MASSHOLE is a registered trademark of Sully's Tees LLC (Registration # 3004929) - Keywords: No keywords
+SUCCESS: https://www.urbandictionary.com/define.php?term=MASS-HOLES - Title: Urban Dictionary: MASS-HOLES - Description: No description - Keywords: No keywords
+SUCCESS: https://www.massholedonuts.com/ - Title: Mass Hole Donuts - Description:  - Keywords: No keywords
+SUCCESS: https://wror.com/listicle/19-signs-you-are-clearly-a-masshole-how-many-do-you-have/ - Title: 19 Signs You Are Clearly a Masshole - Description: These are the 19 signs you're clearly a Masshole. How many of these things do you have? Living in Massachusetts is unique. - Keywords: No keywords
+SUCCESS: https://massholefirearms.com/ - Title: WELCOME TO THE ONLINE STORE OF MASSHOLE FIREARMS - - Description: No description - Keywords: No keywords
+SUCCESS: https://www.instagram.com/massholedonuts/?hl=en - Title: Mass Hole Donuts (@massholedonuts) • Instagram photos and videos - Description: 22K Followers, 1,184 Following, 1,399 Posts - Mass Hole Donuts (@massholedonuts) on Instagram: "the “filet mignon” of donuts
+Open Thurs-Sunday
+11 Charles St 9am-sell out 
+Somerville 8am-11:30am 
+Cater every day
+Best of Boston 2020
+New menu weekly" - Keywords: No keywords
+SUCCESS: https://massholedonuts.square.site/ - Title: Place your Mass Hole Donut Order | My Site - Description:  - Keywords: No keywords
+SUCCESS: https://www.massholedonuts.com/our-hole-family - Title: Mass Holes For This Week — Mass Hole Donuts - Description:  - Keywords: No keywords
+SUCCESS: https://www.quora.com/Massachusetts-state-What-qualities-define-a-Masshole - Title: Massachusetts (state): What qualities define a 'Masshole'? - Quora - Description: No description - Keywords: No keywords
+SUCCESS: https://www.facebook.com/massholemommy/ - Title: Masshole Mommy | Facebook - Description: Masshole Mommy. 148,850 likes · 30,630 talking about this. I'm the mom of three boys (2 of my own plus a bonus son). I write about parenting, recipes,... - Keywords: No keywords
+SUCCESS: https://massholelobstertruck.com/san-antonio-masshole-food-menu - Title: Masshole - Food Menu - Description:  - Keywords: No keywords
+SUCCESS: https://massholedogbiscuitco.com/collections/all - Title: Products – Masshole Dog Biscuit Co - Description: No description - Keywords: No keywords
+SUCCESS: https://www.amazon.com/masshole/s?k=masshole - Title: Amazon.com : masshole - Description: No description - Keywords: No keywords
+SUCCESS: https://www.masslive.com/news/2022/07/massachusetts-slang-heres-how-to-talk-like-a-masshole-also-known-as-a-massachusetts-native.html - Title: Massachusetts slang: Here’s how to talk like a ‘Masshole’ — also known as a Massachusetts native - masslive.com - Description: No description - Keywords: No keywords
+SUCCESS: https://www.bonfire.com/masshole-1-1/ - Title: MassHole | Bonfire - Description: Buy MassHole merchandise from BesTees. Featuring Dark Heather Grey Premium Unisex Tees, professionally printed in the USA. - Keywords: No keywords
+SUCCESS: https://www.sullysbrand.com/products/masshole-commonwealth-magnet - Title: Masshole - Commonwealth Magnet – Sully's Brand - Description: Check out our new and improved MASSH*LE PVC/Rubber magnet! - Keywords: No keywords
+SUCCESS: https://massholedogbiscuitco.com/ - Title: Masshole Dog Biscuit Co | Homemade Dog Treats | All Natural Ingredient - Description: All Natural dog treats made in Gloucester, Ma. Masshole Biscuit Co. treats are made with whole foods and are human grade. We offer Massachusetts shaped treats, perfect for a bigger reward for your dog and we also offer Masshole Bites which make the perfect training treats! - Keywords: No keywords
+ERROR: https://www.facebook.com/MASSHOLEboredUM/videos/1472850680249708/ - Error: 'content'
+SUCCESS: https://www.etsy.com/market/masshole - Title: etsy.com - Description: No description - Keywords: No keywords
+SUCCESS: https://www.facebook.com/massholedonuts/ - Title: Mass Hole Donuts | Somerville MA | Facebook - Description: Mass Hole Donuts, Somerville, MA. 2,765 likes · 5 talking about this · 907 were here. We make gourmet donut holes named after Massachusetts landmarks and... - Keywords: No keywords
+SUCCESS: https://www.reddit.com/r/fo4/comments/1ctdezt/masshole_achievement/ - Title: Blocked - Description: No description - Keywords: No keywords
+SUCCESS: https://www.bostonmagazine.com/news/2015/06/25/masshole-added-oxford-english-dictionary/ - Title: Rejoice! Oxford English Dictionary Adds 'Masshole' - Description: Oxford English Dictionary, the authoritative book on the English language, has included "Masshole" in its list of 500 new words. - Keywords: No keywords
+SUCCESS: https://fallout.fandom.com/wiki/Masshole - Title: Masshole | Fallout Wiki | Fandom - Description: Masshole is an achievement/trophy in Fallout 4. Kill 300 people. "Masshole" is a common derogatory term for a resident of Massachusetts, a portmanteau of "Massachusetts" and "asshole." - Keywords: No keywords
+SUCCESS: https://www.bostonglobe.com/lifestyle/2015/06/25/oxford-english-dictionary-makes-masshole-official/mJaPq3OErMFtrQnasOlVMJ/story.html - Title: Oxford English Dictionary makes ‘Masshole’ official - The Boston Globe - Description: The dictionary cites a 1996 Boston Globe article among examples of the term’s use. - Keywords: masshole,driving,dictionary
+SUCCESS: https://www.wbur.org/cognoscenti/2016/08/17/traffic-driving-masshole-kate-fussner - Title: I Fear I'm Becoming A Masshole | Cognoscenti - Description: I’m a rule-follower. I’ve never even gotten a parking ticket, writes Kate Fussner. I can’t become that arrogant, aggressive, angry driver who gives the rest of us a bad name. - Keywords: No keywords
+SUCCESS: https://www.imdb.com/title/tt0206382/ - Title: 403 Forbidden - Description: No description - Keywords: No keywords
+SUCCESS: https://www.pinterest.com/lauriesx1/proud-to-be-a-masshole/ - Title: 44 Proud to be a MassHole ideas | boston strong, new england, bones funny - Description: Aug 16, 2015 - Explore Laurie Sullivan's board "Proud to be a MassHole" on Pinterest. See more ideas about boston strong, new england, bones funny. - Keywords: No keywords
+SUCCESS: https://www.havencenter.me/brewster-ma-dispensary-menu/?dtche%5Bproduct%5D=masshole-mango-disposable-0-5g - Title: Brewster Massachusetts Recreational Dispensary - Description: The Haven Center is a recreational dispensary in Brewster, MA offering flower, pre-rolls, edibles, vapes, concentrates, and more. Order online or visit us at 4018 Main St. - Keywords: No keywords
+SUCCESS: https://twitter.com/massholesports - Title: Masshole Sports (@MassholeSports) / X - Description: No description - Keywords: No keywords
+SUCCESS: https://hatebase.org/vocabulary/masshole - Title: Masshole - Hatebase - Description: A collaborative, regionalized repository of multilingual hate speech - Keywords: No keywords
+SUCCESS: https://www.bostonmagazine.com/news/2019/08/19/ken-jennings-masshole/ - Title: Ken Jennings Has a Gentle and Sweet Redefinition of "Masshole" - Description: Ken Jennings, the Jeopardy! star and social media joke-slinger, offered up a redefinition of the word "Masshole," and you know what? It's nice. - Keywords: No keywords
+ERROR: https://www.facebook.com/MASSHOLEboredUM/videos/919615812328909/ - Error: 'content'
+SUCCESS: https://www.thetravelingmassholes.com/ - Title: The Traveling Massholes - Description: Boston Based Travel Bloggers providing insight to travel tips all around 
+the world, specializing in New England travel tips. Travel smarter with 
+advice, guides, insight, tips, tricks, and sales on all things travel 
+related. - Keywords: No keywords
+SUCCESS: https://www.instagram.com/massholemedia/ - Title: Masshole Media (@massholemedia) • Instagram photos and videos - Description: 1,692 Followers, 68 Following, 587 Posts - Masshole Media (@massholemedia) on Instagram: "The world’s first cost efficient collective worldwide" - Keywords: No keywords
+SUCCESS: https://www.wordnik.com/words/Masshole - Title: Masshole - definition and meaning - Description: Masshole: An obnoxious or irresponsible automobile driver from <xref>Massachusetts</xref>. - Keywords: No keywords
+SUCCESS: https://mancunion.com/2022/03/02/life-as-a-masshole/ - Title: Life as a Masshole: Massachusetts and America's mistakes - The Mancunion - Description: Escape to Massachusetts through the eyes of a Masshole. The state is rich with history, nature, and student debt - Keywords: No keywords
+SUCCESS: https://www.linkedin.com/in/tyler-seller-b2784b133 - Title: Sign Up | LinkedIn - Description: 750 million+ members | Manage your professional identity. Build and engage with your professional network. Access knowledge, insights and opportunities. - Keywords: No keywords
+SUCCESS: https://improvasylum.com/massholes-comedy-tour-of-boston/ - Title: The Massholes Comedy Tour of Boston - Improv Asylum - Description: The Massholes Comedy Tour of Boston is the funniest way to experience the city. See the sights and get the history of Boston from the locals! - Keywords: No keywords
+SUCCESS: https://safer.fmcsa.dot.gov/query.asp?searchtype=ANY&query_type=queryCarrierSnapshot&query_param=USDOT&query_string=3903664 - Title: SAFER Web - Company Snapshot MASSHOLE TRUCKING COMPANY - Description: No description - Keywords: No keywords
+SUCCESS: https://books.google.com/books?id=vcVBDwAAQBAJ&pg=PA130&lpg=PA130&dq=masshole&source=bl&ots=EDpUvaFoZ-&sig=ACfU3U3VCBkMaujwJThVu_cbEwKkg1SmCQ&hl=en&sa=X&ved=2ahUKEwjt8IOvgJ6HAxXlrokEHUfHBbA4KBDoAXoECBgQAw - Title: You Left Me Behind - Flossy Abraham - Google Books - Description: Rebecca Jones and Corina Green had always been the best of friends. They had trained together to be mental health nurses at The Cumberland Infirmary, but a certain weird American doctor had driven them apart. Rebecca loved Corina and wanted to be more than just friends, but Doctor Joseph Barsetti had taken Corina back to his home town of Boston in Massachusetts after they were married, and Rebecca had never forgiven him. She was sure Corina would want to be with her if he hadnOt taken her away, so ten years later Rebecca goes to Boston to declare her undying love for Corina after not being able to rebuild her life without her. Will Rebecca get her girl at long last, or will Joseph stop her in her tracks? An addictive read, which is the sequel to Flossy Abraham's, 'The Girl He Left Behind.' This book has the, 'I didn't see that coming!' factor and you will not want to put it down!. - Keywords: No keywords
+SUCCESS: https://masshole.runnerspace.com/ - Title: Just a moment... - Description: No description - Keywords: No keywords
+SUCCESS: https://tenor.com/search/masshole-gifs - Title: Masshole GIFs | Tenor - Description: With Tenor, maker of GIF Keyboard, add popular Masshole animated GIFs to your conversations. Share the best GIFs now >>> - Keywords: masshole,gifs,search,memes
+SUCCESS: https://rock929rocks.com/listicle/19-signs-you-are-clearly-a-masshole-how-many-do-you-have/ - Title: 19 Signs You Are Clearly a Masshole - Description: These are the 19 signs you're clearly a Masshole. How many of these things do you have? Living in Massachusetts is unique. - Keywords: No keywords
+SUCCESS: https://thetab.com/us/iowa/2016/03/17/masshole-2874 - Title: I'm from Massachusetts, but I'm not a Masshole - Description: No description - Keywords: No keywords
+SUCCESS: https://www.imdb.com/title/tt2391462/ - Title: 403 Forbidden - Description: No description - Keywords: No keywords
+SUCCESS: https://project-pop-up.com/brands/massholebiscuitco - Title: Project Pop-Up | Masshole Biscuit Co - Description: No description - Keywords: No keywords
+ERROR: https://www.facebook.com/MASSHOLEboredUM/videos/1423881911530733/ - Error: 'content'
+SUCCESS: https://www.ebay.com/str/massholemikes - Title: MASSHOLE MIKES | eBay Stores - Description: I am actually a registered Pharmacist that works in a hospital full time and runs this store as a hobby. I became a collector early on when my father sold candy in a store that he ran and used to get free complete sets of Topps Baseball cards back in the 80's. I started selling those at flee markets and was HOOKED FOR LIFE. I have since then included many new items
+to what I sell. bobbleheads, mini bobbleheads snow globes scarfs hats Santa hats ornaments gnomes rookie cards yugioh cards magic cards team sets NFL NBA NHL NCAA MLB. - Keywords: No keywords
+SUCCESS: https://www.urbandictionary.com/define.php?term=Masshole%27s - Title: Urban Dictionary: Masshole's - Description: No description - Keywords: No keywords
+SUCCESS: https://www.adweek.com/agencies/a-serious-masshole-urges-support-for-a-ballot-question-protecting-the-transgender-community/ - Title: A Serious ’Masshole’ Urges Support for a Ballot Question Protecting the Transgender Community - Description: Heartfelt appeal with a wicked Boston accent. - Keywords: No keywords
+SUCCESS: https://www.redbubble.com/shop/masshole - Title: Just a moment... - Description: No description - Keywords: No keywords
+SUCCESS: https://www.masslive.com/news/2015/06/masshole_among_newest_words_ad.html - Title: 'Masshole' among newest words added to Oxford English Dictionary - masslive.com - Description: No description - Keywords: No keywords
+SUCCESS: https://matadornetwork.com/abroad/how-to-piss-off-a-masshole/ - Title: How to Piss Off a Masshole - Description: Matador is a travel and lifestyle brand redefining travel media with cutting edge adventure stories, photojournalism, and social commentary. - Keywords: No keywords
+SUCCESS: https://www.tiktok.com/@masshole_?lang=en - Title: MAsshole (@masshole_) | TikTok - Description: MAsshole (@masshole_) on TikTok | 806 Likes. 1340 Followers. Give Me A Follow! F4F 😎🤟🏼🏍🚀.Watch the latest video from MAsshole (@masshole_). - Keywords: No keywords
+SUCCESS: https://drinkdrakes.com/beers/masshole/ - Title: Masshole - Drake's Brewing Co. - Description: No description - Keywords: No keywords
+SUCCESS: https://twitter.com/dalton_daltoff - Title: X - Description: No description - Keywords: No keywords
+SUCCESS: https://www.havencenter.me/brewster-ma-dispensary-menu/?dtche%5Bproduct%5D=masshole-mango-1g - Title: Brewster Massachusetts Recreational Dispensary - Description: The Haven Center is a recreational dispensary in Brewster, MA offering flower, pre-rolls, edibles, vapes, concentrates, and more. Order online or visit us at 4018 Main St. - Keywords: No keywords
+SUCCESS: https://thencw.com/the-masshole-mike-mccarthy/ - Title: “The Masshole” Mike McCarthy – Northeast Championship Wrestling - Description:   Hometown: The Rathskeller NCW Debut: September 29th, 2001 (NCW Payback) Career Highlights: NCW New England Champion, NCW 2018 Match of the Year     Oi! Since his first appearance in NCW back in 2001 (as "Toxic" Tommy Knoxville) "The Masshole" Mike McCarthy has been one of the biggest personalities to grace an NCW ring… - Keywords: No keywords
+SUCCESS: https://untappd.com/b/behemoth-brewing-company-masshole/5740304 - Title: Masshole - Behemoth Brewing Company - Untappd - Description: Masshole by Behemoth Brewing Company is a Lager - IPL (India Pale Lager) which has a rating of 3.8 out of 5, with 122 ratings and reviews on Untappd. - Keywords: Masshole, Behemoth Brewing Company, Lager - IPL (India Pale Lager), New Zealand, Auckland
+SUCCESS: https://www.bostonseaport.xyz/venue/mass-hole-donuts/ - Title: Boston Seaport | The Current: Mass Hole Donuts - Description: Mass Hole Donuts is a small neighborhood donut hole shop. Visit their pop-up at The Current. - Keywords: No keywords
+SUCCESS: https://www.youtube.com/channel/UCW_aSx3R4PAf3RGrcjZwb1Q - Title: Masshole Media - YouTube - Description: Creators Support Creators - Keywords: video, sharing, camera phone, video phone, free, upload
+SUCCESS: https://www.reddit.com/r/boston/comments/asfuh1/definition_of_a_masshole/ - Title: Blocked - Description: No description - Keywords: No keywords
+SUCCESS: https://www.carriersource.io/carriers/masshole-trucking-company - Title: Just a moment... - Description: No description - Keywords: No keywords
+SUCCESS: https://www.instagram.com/secupp/reel/C88jSYvMLui/ - Title: S.E. Cupp | Masshole for life. 🧡🩷 | Instagram - Description: 346 likes, 13 comments - secupp on July 2, 2024: "Masshole for life. 🧡🩷".  - Keywords: No keywords
+SUCCESS: https://bostoday.6amcity.com/events/introducing-a-massholes-guide-to-boston - Title: Introducing "A Masshole's Guide to Boston" - BOStoday - Description: No description - Keywords: No keywords
+SUCCESS: https://laurazigman.wordpress.com/2009/09/13/turning-into-a-masshole/ - Title: Turning into a Masshole | Laura Zigman's Brant - Description: mass-hole (noun) (from Urban Dictionary) 1. For residents of Massachusetts, it is an achieved title for driving faster, being wreckless, cutting other drivers off often, and having no patience for other drivers on the road. 2. For non-residents of Massachusetts, it is a term of dislike for the people of Massachusetts that drive like an… - Keywords: No keywords
+SUCCESS: https://www.pinterest.com/lily21212/masshole/ - Title: 170 Masshole ideas | boston strong, massachusetts, red sox nation - Description: Jul 27, 2017 - You know you are from Massachusetts when... See more ideas about boston strong, massachusetts, red sox nation. - Keywords: No keywords
+SUCCESS: https://www.tripadvisor.com/AttractionProductReview-g60745-d27424029-The_Massholes_Comedy_Trolley_Tour_of_Boston-Boston_Massachusetts.html - Title: tripadvisor.com - Description: No description - Keywords: No keywords
+SUCCESS: https://www.americaninno.com/boston/featured-mom-boston-blogger-masshole-mommy/ - Title: Featured Mom: Boston Blogger Masshole Mommy - Description: No description - Keywords: No keywords
+SUCCESS: https://www.hercampus.com/school/northeastern/thoughts-every-masshole-has-while-driving/ - Title: Thoughts Every Masshole Has While Driving - Description: “Well I was suppose to be at her house thirty minutes ago so I should probably leave now” “Whoops forgot my keys...and purse..and phone..... - Keywords: No keywords
+SUCCESS: https://www.expressnews.com/food/restaurants/article/52-Weeks-Sandwiches-Lobster-rolls-Masshole-17638529.php - Title: Access to this page has been denied - Description: px-captcha - Keywords: No keywords
+SUCCESS: https://www.boston25news.com/news/masshole-now-part-of-the-dictionary/8950842/ - Title: 'Masshole' now part of the dictionary – Boston 25 News - Description: The term masshole may have been thrown around the Bay State for several years, but as of this week it's officially part of the dictionary. - Keywords: No keywords
+SUCCESS: https://www.teepublic.com/magnet/1273424-masshole-nut-taps - Title: Masshole - Nut Taps - Snl - Magnet | TeePublic - Description: Shop Masshole - Nut Taps snl magnets designed by Gimmickbydesign as well as other snl merchandise at TeePublic. - Keywords: No keywords
+SUCCESS: https://www.trueachievements.com/a209705/masshole-achievement - Title: Masshole achievement in Fallout 4 - Description: How to unlock the Masshole achievement in Fallout 4: Kill 300 People. This achievement is worth 20 Gamerscore. - Keywords: No keywords
+SUCCESS: https://www.yelp.com/biz/mass-hole-donuts-somerville - Title: MASS HOLE DONUTS - Updated July 2024 - 75 Photos & 60 Reviews - 1157 Broadway, Somerville, Massachusetts - Donuts - Phone Number - Menu - Yelp - Description: MASS HOLE DONUTS, 1157 Broadway, Somerville, MA 02144, 75 Photos, Mon - Closed, Tue - Closed, Wed - Closed, Thu - Closed, Fri - 8:00 am - 11:00 am, Sat - 8:00 am - 11:00 am, Sun - 8:00 am - 11:00 am - Keywords: No keywords
+SUCCESS: https://www.youtube.com/watch?v=0RApRLsJUh0 - Title: Masshole - YouTube - Description:  - Keywords: video, sharing, camera phone, video phone, free, upload
+SUCCESS: https://www.playstationtrophies.org/game/fallout-4/trophy/125254-masshole.html - Title: Just a moment... - Description: No description - Keywords: No keywords
+SUCCESS: https://vanyaland.com/2023/06/30/improv-asylum-announces-the-massholes-guide-to-boston-trolley-tour/ - Title: Improv Asylum announces 'The Masshole's Guide To Boston' trolley tour - Description: Starting in mid-July, frequent performers of the long-standing comedy institution will bring you on a somewhat educational trek around town. - Keywords: No keywords
+SUCCESS: https://www.tiktok.com/@jsillly66/video/7278695237365583146 - Title: Just to clear things up for you lol #massachusetts #masshole #newengla... | TikTok - Description: 1660 Likes, 356 Comments. TikTok video from Jimmy (@jsillly66): “Just to clear things up for you lol #massachusetts #masshole #newengland #maine #newhampshire #connecticut #fyp #funny #jsilly66 #jokes”. original sound - Jimmy. - Keywords: No keywords
+SUCCESS: https://en.wikipedia.org/wiki/Masshole - Title: Masshole - Wikipedia - Description: No description - Keywords: No keywords
+SUCCESS: https://www.universalhub.com/node/22723 - Title: OK, who is the Masshole here? | Universal Hub - Description: Given that I've preached about neighbors who don't clear their walks, I was taken aback this morning over this situation: Although we cleared our sidewalk during the weekend snow storm and put down de-icer, yesterday the biggest melting snow pile caused a stream of water to flow towards the street, and last night it froze up, leaving about a 3-foot long patch of ice on our - Keywords: No keywords
+SUCCESS: https://www.youtube.com/@trollmafiaofficial - Title: Masshole Troll Mafia Official - YouTube - Description: Public records enthusiasts, blinkah avoiders, we troll terrible people on the internet so you don't have to.We will burn this channel to the ground before we... - Keywords: "1a Auditor fails" "sovereign citizens" police "true crime" crime podcasts "auditing america" "Accountability For All" "1st amendment audits" "1st amendment ...
+SUCCESS: https://www.redbubble.com/shop/masshole+stickers - Title: Just a moment... - Description: No description - Keywords: No keywords
+SUCCESS: https://greg.app/WinksGirl/plants/a0235e0a/ - Title: Masshole 0-25 | A plant by @WinksGirl on Greg - Description: Check out the stats behind @WinksGirl's Masshole 0-25 plant on the Greg app! - Keywords: No keywords
+SUCCESS: https://www.basementmedicine.org/features/2012/11/15/masshole-our-bay-state-curmudgeon-bloviates-on-rotaries-and-roundabouts/ - Title: MASSHOLE! Our Bay State curmudgeon bloviates on rotaries and roundabouts – Basement Medicine - Description: If two wrongs don’t make a right, but three lefts do, does that make rotaries not just right, but in fact a spiraling computer proof of god’s own intentions, a coiling helix encoded with his plan for us? Maybe elsewhere, but not here in Vermont. Rotaries, excuse me, “roundabouts,” have been getting a bad rap... - Keywords: No keywords
+ERROR: /search?sca_esv=551c7f8375920942&sca_upv=1&q=Mass+Hole+Donuts&si=ACC90nxp5PteNmYcqmoXxlml2xQ2QM8noJmQUYMLhp4J5SbXM1jfscFEXFKJgLQXEIot9eYZRp13WrWdq5Y5rj6-yCYqdH9YnIh5R0WAOOaHLH_i9G9ejCHGjI-g_MtaLrGU3wCd4UKGSabtN-4geaO7gXc7c6agZVpI8mL7zeU7cDLFyr-mdY-SdFnozv4s552ZH5WjhJDRliHIZQrYrgVHIa2t_Xp7yrvV0ip-ocK0Z4IcZEbNeiPfx6nQrZC7aUaQNzAgew59pWPMvOH3R1r2ek0c2vBdcpSyLGc_wz2vD_1_bDmaLOx2VdxdrJUFywqQXMjVZccH&sa=X&ved=2ahUKEwjzxJS7gJ6HAxVql4kEHVXvDjEQ6RN6BAgVEAE - Error: Message: invalid argument
+  (Session info: chrome-headless-shell=126.0.6478.127)
+Stacktrace:
+	GetHandleVerifier [0x0090C1C3+27395]
+	(No symbol) [0x008A3DC4]
+	(No symbol) [0x007A19FD]
+	(No symbol) [0x0078D216]
+	(No symbol) [0x0078BC73]
+	(No symbol) [0x0078C2AB]
+	(No symbol) [0x007A4364]
+	(No symbol) [0x0081D297]
+	(No symbol) [0x0080399C]
+	(No symbol) [0x0081CB24]
+	(No symbol) [0x00803736]
+	(No symbol) [0x007D7541]
+	(No symbol) [0x007D80BD]
+	GetHandleVerifier [0x00BC3A93+2876371]
+	GetHandleVerifier [0x00C17F5D+3221661]
+	GetHandleVerifier [0x0098D634+556916]
+	GetHandleVerifier [0x0099474C+585868]
+	(No symbol) [0x008ACE04]
+	(No symbol) [0x008A9818]
+	(No symbol) [0x008A99B7]
+	(No symbol) [0x0089BF0E]
+	BaseThreadInitThunk [0x75247BA9+25]
+	RtlInitializeExceptionChain [0x7703C10B+107]
+	RtlClearBits [0x7703C08F+191]
+
+SUCCESS: https://turnto10.com/archive/masshole-added-to-to-oxford-english-dictionary - Title: 'Masshole' added to to Oxford English Dictionary - Description: Massachusetts drivers have a bit of a reputation when it comes to their behavior on the road. And there is a certain term that has gone along with that bad driving. But now that word has been added to the oxford dictionary.  - Keywords: No keywords
+SUCCESS: https://untappd.com/b/leaven-brewing-masshole/2758390 - Title: Masshole - Leaven Brewing - Untappd - Description: Masshole by Leaven Brewing is a IPA - New England / Hazy which has a rating of 3.8 out of 5, with 243 ratings and reviews on Untappd. - Keywords: Masshole, Leaven Brewing, IPA - New England / Hazy, United States, Florida
+SUCCESS: https://www.instagram.com/barstoolboston/reel/ClXLnkxD_Pw/ - Title: Barstool Boston | The Masshole Thanksgiving freak out is the greatest Thanksgiving video of all time | Instagram - Description: 2,054 likes, 27 comments - barstoolboston on November 24, 2022: "The Masshole Thanksgiving freak out is the greatest Thanksgiving video of all time".  - Keywords: No keywords
+SUCCESS: https://cindyzelman.com/2020/02/23/a-massholes-advice-please-consult-your-users-manual/ - Title: A Masshole’s Advice: Please consult your user’s manual – The Early Draft - Description: If you are from out of state, you cringe and swear you will never drive in this god forsaken place again. Maybe Boston drivers should be called "Massive-holes." - Keywords: No keywords
+SUCCESS: https://www.bonfire.com/masshole-1/ - Title: MassHole | Bonfire - Description: Grab your limited edition MassHole merchandise before the campaign closes. Featuring Dark Heather Grey Premium Unisex Tees, professionally printed in the USA. - Keywords: No keywords
+SUCCESS: https://www.barstoolsports.com/blog/1301202/i-appreciate-the-fuck-out-of-this-masshole-who-announced-their-last-pick-tonight - Title: I Appreciate The Fuck Out Of This Masshole Who Announced The Patriots Last Pick Tonight | Barstool Sports - Description: I don’t like to throw the word “icon” around loosely, but this dude was a goddamn icon from the moment he hit the stage in that blazer with his hat pulled down over his eyes. Textbook Masshole through... - Keywords: No keywords
+SUCCESS: https://www.walmart.com/ip/Native-Masshole-Massachusetts-MA-1788-Vintage-Distressed-T-Shirt/5535224727 - Title: Robot or human? - Description: No description - Keywords: No keywords
