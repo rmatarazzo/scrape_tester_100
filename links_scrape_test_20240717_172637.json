@@ -1,0 +1,698 @@
+[
+    {
+        "link": "#",
+        "status": "error",
+        "error": "Message: invalid argument\n  (Session info: chrome-headless-shell=126.0.6478.127)\nStacktrace:\n\tGetHandleVerifier [0x0051C203+27395]\n\t(No symbol) [0x004B3E04]\n\t(No symbol) [0x003B19FD]\n\t(No symbol) [0x0039D216]\n\t(No symbol) [0x0039BC73]\n\t(No symbol) [0x0039C2AB]\n\t(No symbol) [0x003B4364]\n\t(No symbol) [0x0042D297]\n\t(No symbol) [0x0041399C]\n\t(No symbol) [0x0042CB24]\n\t(No symbol) [0x00413736]\n\t(No symbol) [0x003E7541]\n\t(No symbol) [0x003E80BD]\n\tGetHandleVerifier [0x007D3AB3+2876339]\n\tGetHandleVerifier [0x00827F7D+3221629]\n\tGetHandleVerifier [0x0059D674+556916]\n\tGetHandleVerifier [0x005A478C+585868]\n\t(No symbol) [0x004BCE44]\n\t(No symbol) [0x004B9858]\n\t(No symbol) [0x004B99F7]\n\t(No symbol) [0x004ABF4E]\n\tBaseThreadInitThunk [0x75D37BA9+25]\n\tRtlInitializeExceptionChain [0x77E8C10B+107]\n\tRtlClearBits [0x77E8C08F+191]\n"
+    },
+    {
+        "link": "https://en.wikipedia.org/wiki/Lion",
+        "status": "success",
+        "title": "Lion - Wikipedia",
+        "description": "No description",
+        "keywords": "No keywords"
+    },
+    {
+        "link": "https://twitter.com/Lions?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor",
+        "status": "success",
+        "title": "Detroit Lions (@Lions) / X",
+        "description": "No description",
+        "keywords": "No keywords"
+    },
+    {
+        "link": "https://twitter.com/lions?lang=en",
+        "status": "success",
+        "title": "Detroit Lions (@Lions) / X",
+        "description": "No description",
+        "keywords": "No keywords"
+    },
+    {
+        "link": "https://www.detroitlions.com/",
+        "status": "success",
+        "title": "Detroit Lions Home | Detroit Lions – DetroitLions.com",
+        "description": "Detroit Lions Home: The official source of the latest Lions headlines, news, videos, photos, tickets, rosters, and gameday information.",
+        "keywords": ""
+    },
+    {
+        "link": "https://www.detroitlions.com/",
+        "status": "success",
+        "title": "Detroit Lions Home | Detroit Lions – DetroitLions.com",
+        "description": "Detroit Lions Home: The official source of the latest Lions headlines, news, videos, photos, tickets, rosters, and gameday information.",
+        "keywords": ""
+    },
+    {
+        "link": "https://www.nfl.com/teams/detroit-lions/",
+        "status": "success",
+        "title": "Detroit Lions News, Scores, Stats, Schedule | NFL.com",
+        "description": "Get the latest Detroit Lions news. Find news, video, standings, scores and schedule information for the Detroit Lions",
+        "keywords": ""
+    },
+    {
+        "link": "https://www.espn.com/nfl/team/_/name/det/detroit-lions",
+        "status": "success",
+        "title": "Detroit Lions Scores, Stats and Highlights - ESPN",
+        "description": "Visit ESPN for Detroit Lions live scores, video highlights, and latest news. Find standings and the full 2024 season schedule.",
+        "keywords": "No keywords"
+    },
+    {
+        "link": "https://www.prideofdetroit.com/2024/7/17/24200634/multiple-detroit-lions-rookies-taken-in-ufl-draft-isaiah-williams-isaac-ukwu-michigan-panthers",
+        "status": "success",
+        "title": "Multiple Detroit Lions rookies taken in UFL Draft - Pride Of Detroit",
+        "description": "The UFL college draft was held on Wednesday and multiple Lions UDFA rookies were selected, including one by the Michigan Panthers.",
+        "keywords": "No keywords"
+    },
+    {
+        "link": "https://lionswire.usatoday.com/2024/07/17/detroit-lions-rookie-udfa-isaiah-williams-isaac-ukwu-ufl-draft/",
+        "status": "success",
+        "title": "Two Lions rookie UDFAs were selected in the UFL draft",
+        "description": "The UFL held its draft on Wednesday and two Lions rookie UDFAs, Isaiah Williams and Isaac Ukwu, were selected by teams in the spring league",
+        "keywords": "lions news, isaac ukwu, isaiah williams, michigan panthers, ufl"
+    },
+    {
+        "link": "https://www.nfl.com/news/detroit-lions-training-camp-preview-key-dates-notable-additions-biggest-storylines",
+        "status": "success",
+        "title": "Detroit Lions training camp preview: Key dates, notable additions, biggest storylines",
+        "description": "With NFL training camp season upon us, Kevin Patra provides a refresher on the Detroit Lions' roster changes, position battles and notable subplots.",
+        "keywords": ""
+    },
+    {
+        "link": "https://www.canneslions.com/",
+        "status": "success",
+        "title": "Cannes Lions International Festival of Creativity",
+        "description": "Cannes Lions, a five-day International Festival of Creativity, is the largest gathering in the creative marketing community. Find out all about Cannes Lions, here.",
+        "keywords": "No keywords"
+    },
+    {
+        "link": "https://www.espn.com/nfl/team/depth/_/name/det",
+        "status": "success",
+        "title": "Detroit Lions 2024 NFL Depth Chart - ESPN",
+        "description": "Check out the 2024 Detroit Lions NFL depth chart on ESPN. Includes full details on starters, second, third and fourth tier Lions players.",
+        "keywords": "No keywords"
+    },
+    {
+        "link": "https://www.si.com/nfl/team/detroit-lions",
+        "status": "success",
+        "title": "Detroit Lions News - Sports Illustrated",
+        "description": "Detroit Lions News - Sports Illustrated",
+        "keywords": "No keywords"
+    },
+    {
+        "link": "https://www.freep.com/sports/lions/",
+        "status": "success",
+        "title": "Detroit Lions Football - Detroit Free Press",
+        "description": "Detroit Lions and National Football League headlines, breaking news, scores, stats, rosters, schedules, videos, photographs, commentary, analysis and more.",
+        "keywords": "No keywords"
+    },
+    {
+        "link": "https://www.mlive.com/lions/2024/07/lions-training-camp-preview-jameson-williams-breakout-season-incoming.html",
+        "status": "success",
+        "title": "Lions training camp preview: Jameson Williams breakout season incoming? - mlive.com",
+        "description": "No description",
+        "keywords": "No keywords"
+    },
+    {
+        "link": "https://www.youtube.com/watch?v=8RVTdxNFGZI",
+        "status": "success",
+        "title": "BREAKING NEWS: Detroit Lions POTENTIALLY Lose 2 UDFA's In 2024 UFL Draft! - YouTube",
+        "description": "Join this channel to get access to perks:https://www.youtube.com/channel/UCdhw1Jm6vfyn5HxEpgsrMZQ/join\"KING OF THE JUNGLE\" 48'  Backlit LED Detroit Lions 3D ...",
+        "keywords": "Detroit Lions, Detroit Lions Syndicate, Lions Syndicate, BREAKING NEWS: Detroit Lions POTENTIALLY Lose 2 UDFA's In 2024 UFL Draft!, detroit lions youtube, detroit lions rumors and news, detroit lions team news, detroit lions trade, detroit lions nfc, detroit lions live, detroit lions youtube channel, detroit lions trade rumors, detroit lions news today, nfl detroit lions, detroit lions podcast, todays lions rumors, detroit lions breaking news, detroit lions updates"
+    },
+    {
+        "link": "https://www.lionsclubs.org/en/start-our-approach/club-locator",
+        "status": "success",
+        "title": "Find a Local Lions Club | Lions Clubs International",
+        "description": "Interested in joining a Lions club? Use our club locator search tool to find a club near you.",
+        "keywords": "No keywords"
+    },
+    {
+        "link": "https://www.facebook.com/DetroitLions/",
+        "status": "success",
+        "title": "Detroit Lions | Allen Park MI | Facebook",
+        "description": "No description",
+        "keywords": "No keywords"
+    },
+    {
+        "link": "https://www.lionscreativity.com/",
+        "status": "success",
+        "title": "LIONS: The Home of Creativity",
+        "description": "LIONS: The Home of Creativity - The destination for anyone who believes in the power of creative possibility and wants to aim higher and push forward.",
+        "keywords": "No keywords"
+    },
+    {
+        "link": "https://apnews.com/hub/detroit-lions",
+        "status": "success",
+        "title": "Detroit Lions | AP News",
+        "description": "No description",
+        "keywords": "No keywords"
+    },
+    {
+        "link": "https://en.wikipedia.org/wiki/Detroit_Lions",
+        "status": "success",
+        "title": "Detroit Lions - Wikipedia",
+        "description": "No description",
+        "keywords": "No keywords"
+    },
+    {
+        "link": "https://www.prideofdetroit.com/2024/7/17/24200036/detroit-lions-news-detroit-linebacking-crew-continues-overlooked-underrated",
+        "status": "success",
+        "title": "Lions news: Detroit’s linebacking crew continues to be overlooked - Pride Of Detroit",
+        "description": "National experts continue to overlook and underrate the Detroit Lions’ linebacking corps.",
+        "keywords": "No keywords"
+    },
+    {
+        "link": "https://www.lionsrugby.com/",
+        "status": "success",
+        "title": "British & Irish Lions | Home",
+        "description": "No description",
+        "keywords": "No keywords"
+    },
+    {
+        "link": "https://www.foxnews.com/sports/rep-john-james-booed-rnc-after-bragging-about-lions-packers-territory-warmest-regards-from-detroit",
+        "status": "success",
+        "title": "Rep. John James booed at RNC after bragging about Lions in Packers territory: ‘Warmest regards from Detroit’ | Fox News",
+        "description": "Michigan Congressman John James wasn't the biggest crowd pleaser at the RNC in Milwaukee Monday night after he bragged about the Lions in a room likely filled with Packers fans.",
+        "keywords": "No keywords"
+    },
+    {
+        "link": "https://www.fordfield.com/",
+        "status": "success",
+        "title": "Ford Field",
+        "description": "",
+        "keywords": ""
+    },
+    {
+        "link": "https://www.prideofdetroit.com/2024/7/17/24200634/multiple-detroit-lions-rookies-taken-in-ufl-draft-isaiah-williams-isaac-ukwu-michigan-panthers",
+        "status": "success",
+        "title": "Multiple Detroit Lions rookies taken in UFL Draft - Pride Of Detroit",
+        "description": "The UFL college draft was held on Wednesday and multiple Lions UDFA rookies were selected, including one by the Michigan Panthers.",
+        "keywords": "No keywords"
+    },
+    {
+        "link": "https://www.foxnews.com/sports/rep-john-james-booed-rnc-after-bragging-about-lions-packers-territory-warmest-regards-from-detroit",
+        "status": "success",
+        "title": "Rep. John James booed at RNC after bragging about Lions in Packers territory: ‘Warmest regards from Detroit’ | Fox News",
+        "description": "Michigan Congressman John James wasn't the biggest crowd pleaser at the RNC in Milwaukee Monday night after he bragged about the Lions in a room likely filled with Packers fans.",
+        "keywords": "No keywords"
+    },
+    {
+        "link": "https://www.youtube.com/@detroitlionsnfl",
+        "status": "success",
+        "title": "Detroit Lions - YouTube",
+        "description": "Welcome to the official Youtube page of the Detroit Lions.Subscribe to the Detroit Lions Youtube page to watch our latest highlights, features, interviews, p...",
+        "keywords": "detroit lions nfl football"
+    },
+    {
+        "link": "https://sports.yahoo.com/nfl/teams/detroit/",
+        "status": "success",
+        "title": "Detroit Lions News, Videos, Schedule, Roster, Stats - Yahoo Sports",
+        "description": "Sports News, Scores, Fantasy Games ",
+        "keywords": "Detroit Lions, Detroit"
+    },
+    {
+        "link": "https://bleacherreport.com/detroit-lions",
+        "status": "success",
+        "title": "Detroit Lions | National Football League, News, Scores, Highlights, Injuries, Stats, Standings, and Rumors | Bleacher Report",
+        "description": "Be the best Detroit Lions fan you can be with Bleacher Report. Keep up with the latest storylines, expert analysis, highlights, scores and more.",
+        "keywords": "No keywords"
+    },
+    {
+        "link": "https://www.lionsclubs.org/en/start-our-approach/club-locator",
+        "status": "success",
+        "title": "Find a Local Lions Club | Lions Clubs International",
+        "description": "No description",
+        "keywords": "No keywords"
+    },
+    {
+        "link": "https://www.detroitnews.com/sports/lions/",
+        "status": "success",
+        "title": "Detroit Lions, NFL football, NFC North, scores- Detroit News sports",
+        "description": "The latest news, scores, opinions and analysis of the Detroit Lions and the National Football League from The Detroit News Sports team.",
+        "keywords": "No keywords"
+    },
+    {
+        "link": "https://www.cbssports.com/nfl/teams/DET/detroit-lions/",
+        "status": "success",
+        "title": "Detroit Lions News, Scores, Status, Schedule - NFL - CBSSports.com",
+        "description": "Get the latest news and information for the Detroit Lions. 2024 season schedule, scores, stats, and highlights. Find out the latest on your favorite NFL teams on CBSSports.com.",
+        "keywords": "No keywords"
+    },
+    {
+        "link": "https://nationalzoo.si.edu/animals/lion",
+        "status": "success",
+        "title": "Lion | Smithsonian's National Zoo and Conservation Biology Institute",
+        "description": "The world's most social felines, lions roam the savannas and grasslands of the African continent, hunting cooperatively and raising cubs in prides.",
+        "keywords": "No keywords"
+    },
+    {
+        "link": "https://www.nationalgeographic.com/animals/mammals/facts/african-lion",
+        "status": "success",
+        "title": "African lion, facts and photos",
+        "description": "",
+        "keywords": "No keywords"
+    },
+    {
+        "link": "https://lionsclubs.co/Public/",
+        "status": "success",
+        "title": "Lions Clubs International – British Isles",
+        "description": "",
+        "keywords": ""
+    },
+    {
+        "link": "https://www.lovethework.com/work-awards/results",
+        "status": "success",
+        "title": "Cannes Lions Winners and Shortlists",
+        "description": "Discover the winners and shortlists from the Cannes Lions, Dubai Lynx, Eurobest and Spikes Asia awards.",
+        "keywords": "No keywords"
+    },
+    {
+        "link": "https://www.reddit.com/r/detroitlions/",
+        "status": "success",
+        "title": "Blocked",
+        "description": "No description",
+        "keywords": "No keywords"
+    },
+    {
+        "link": "https://www.lions.com.au/",
+        "status": "success",
+        "title": "Official AFL Website of the Brisbane Lions Football Club",
+        "description": "The official AFL website of the Brisbane Lions Football Club",
+        "keywords": "No keywords"
+    },
+    {
+        "link": "https://www.canneslions.com/awards",
+        "status": "success",
+        "title": "The Awards | Cannes Lions",
+        "description": "No description",
+        "keywords": "No keywords"
+    },
+    {
+        "link": "https://www.bclions.com/",
+        "status": "success",
+        "title": "BC Lions - Official site",
+        "description": "Official site",
+        "keywords": "No keywords"
+    },
+    {
+        "link": "https://www.foxsports.com/nfl/detroit-lions-team",
+        "status": "success",
+        "title": "Detroit Lions News - NFL | FOX Sports",
+        "description": "View the latest in Detroit Lions, NFL team news here. Trending news, game recaps, highlights, player information, rumors, videos and more from FOX Sports.",
+        "keywords": "No keywords"
+    },
+    {
+        "link": "https://www.tiktok.com/@detroitlions?lang=en",
+        "status": "success",
+        "title": "Detroit Lions (@detroitlions) Official | TikTok",
+        "description": "Detroit Lions (@detroitlions) on TikTok | 46.8M Likes. 2.3M Followers. CEO of Verified Replies ✔️ #OnePride.Watch the latest video from Detroit Lions (@detroitlions).",
+        "keywords": "No keywords"
+    },
+    {
+        "link": "https://lionsclubsinternational.myshopify.com/",
+        "status": "success",
+        "title": "Lions Clubs International",
+        "description": "No description",
+        "keywords": "No keywords"
+    },
+    {
+        "link": "https://www.lionsclubs.org.nz/",
+        "status": "success",
+        "title": "Lions Clubs New Zealand | Home",
+        "description": "Lions Clubs New Zealand represents the 9,500 Lions members belonging Lions Clubs across NZ and the Pacific Islands. Our motto is We Serve.",
+        "keywords": "No keywords"
+    },
+    {
+        "link": "https://gocolumbialions.com/",
+        "status": "success",
+        "title": "Columbia University Athletics - Official Athletics Website",
+        "description": "The official athletics website for the Columbia University Lions",
+        "keywords": "No keywords"
+    },
+    {
+        "link": "https://www.si.com/nfl/lions",
+        "status": "success",
+        "title": "Detroit Lions News - All Lions on FanNation - Sports Illustrated",
+        "description": "AllLions is a Sports Illustrated channel featuring John Maakaron to bring you the latest News, Highlights, Analysis, Draft, Free Agency surrounding the Detroit Lions.",
+        "keywords": "No keywords"
+    },
+    {
+        "link": "https://www.reddit.com/r/detroitlions/",
+        "status": "success",
+        "title": "Blocked",
+        "description": "No description",
+        "keywords": "No keywords"
+    },
+    {
+        "link": "https://www.worldwildlife.org/species/lion--19",
+        "status": "success",
+        "title": "Just a moment...",
+        "description": "No description",
+        "keywords": "No keywords"
+    },
+    {
+        "link": "https://lionswire.usatoday.com/",
+        "status": "success",
+        "title": "Detroit Lions News, Rumors, Scores, Schedule, Stats and Roster | Lions Wire",
+        "description": "Get the latest Lions news, schedule, photos and rumors from Lions Wire, the best Lions blog available",
+        "keywords": "tickets, tvstart, dataskrive, dataskrive, tvstart, sports+ subscription required, wires betting, for sports+ subscribers, ds betting category, video games, super bowl, ds stn, charity event, lions wire site news, media, ds how to watch, zgamb, mailbag, playoffs, ford field, nfl"
+    },
+    {
+        "link": "https://www.linkedin.com/company/detroit-lions",
+        "status": "success",
+        "title": "Detroit Lions | LinkedIn",
+        "description": "Detroit Lions | 42,876 followers on LinkedIn. The Lions, much like the city and community they represent, are built on a blue-collar work ethic that values hustle and conviction.  \n\nFord Field, the home of the Lions since 2002 in the heart of Detroit, is part of a vibrant sports and entertainment district featuring all four major professional sports franchises. Ford Field is also home to a dedicated and passionate multi-generational fan base reflective of the innovation, creativity and drive synonymous with Detroit.",
+        "keywords": "No keywords"
+    },
+    {
+        "link": "https://www.youtube.com/@detroitlionsnfl/videos",
+        "status": "success",
+        "title": "Detroit Lions - YouTube",
+        "description": "Welcome to the official Youtube page of the Detroit Lions.Subscribe to the Detroit Lions Youtube page to watch our latest highlights, features, interviews, p...",
+        "keywords": "detroit lions nfl football"
+    },
+    {
+        "link": "https://www.linkedin.com/company/detroit-lions",
+        "status": "success",
+        "title": "Detroit Lions | LinkedIn",
+        "description": "Detroit Lions | 42,876 followers on LinkedIn. The Lions, much like the city and community they represent, are built on a blue-collar work ethic that values hustle and conviction.  \n\nFord Field, the home of the Lions since 2002 in the heart of Detroit, is part of a vibrant sports and entertainment district featuring all four major professional sports franchises. Ford Field is also home to a dedicated and passionate multi-generational fan base reflective of the innovation, creativity and drive synonymous with Detroit.",
+        "keywords": "No keywords"
+    },
+    {
+        "link": "https://www.britannica.com/animal/lion",
+        "status": "success",
+        "title": "Lion | Characteristics, Habitat, & Facts | Britannica",
+        "description": "Lion, large, powerfully built cat that is second in size only to the tiger. The proverbial ‘king of the beasts,’ the lion has been one of the best-known wild animals since earliest times. Lions are most active at night and live in a variety of habitats but prefer grassland, savanna, dense scrub, and open woodland.",
+        "keywords": "lion, encyclopedia, encyclopeadia, britannica, article"
+    },
+    {
+        "link": "https://www.youtube.com/watch?v=rM_ztczUm-w",
+        "status": "success",
+        "title": "Detroit Lions Trade Rumors On Brandon Aiyuk & Matthew Judon | Lions BLOCKBUSTER Trade Rumors - YouTube",
+        "description": "Today's Lions trade rumors are about San Francisco 49ers Brandon Aiyuk and Detroit Lions trade rumors on New England Patriots Matthew Judon.Detroit Lions new...",
+        "keywords": "detroit lions, lions, detroit lions rumors, detroit lions news, lions rumors, lions news, lions trade rumors, detroit lions trade rumors, matthew judon trade, brandon aiyuk trade, brandon aiyuk, matthew judon, lions trade, detroit lions trade, Lions, Detroit Lions, lions news and rumors, lions rumors and news, today’s lions news, todays lions news, today’s lions rumors, Detroit lions rumors, todays lions rumors, espn detroit lions, lions espn, latest lions rumors, nfl"
+    },
+    {
+        "link": "https://nationalzoo.si.edu/webcams/lion-cam",
+        "status": "success",
+        "title": "Lion Cam | Smithsonian's National Zoo and Conservation Biology Institute",
+        "description": "The world's most social felines, lions hunt cooperatively and raise cubs in prides. Watch the Smithsonian's National Zoo's lions live, 24/7 on the Lion Cam.",
+        "keywords": "No keywords"
+    },
+    {
+        "link": "https://detroithistorical.org/learn/encyclopedia-of-detroit/detroit-lions",
+        "status": "success",
+        "title": "Detroit Lions | Detroit Historical Society",
+        "description": "The Detroit Lions professional football team formed in 1929 as the Portsmouth Spartans of Portsmouth, Ohio. The team moved to Detroit in 1934 and were rebranded as the Detroit Lions. The Lions are members of the National Football Conference’s North Division, which includes the Minnesota Vikings, Green Bay Packers and Chicago Bears. The team colors have been Honolulu Blue and",
+        "keywords": "No keywords"
+    },
+    {
+        "link": "https://www.marca.com/en/nfl/detroit-lions.html",
+        "status": "success",
+        "title": "Detroit Lions News - Latest Detroit Lions News & rumors",
+        "description": "Get updates on the latest Detroit Lions News and enjoy our posts, videos and analysis on Marca English. All Detroit Lions news in the same place.",
+        "keywords": ""
+    },
+    {
+        "link": "https://lionsclubs.org.au/",
+        "status": "success",
+        "title": "Home - Lions Clubs Australia",
+        "description": "No description",
+        "keywords": "No keywords"
+    },
+    {
+        "link": "https://www.facebook.com/lionsclubs/",
+        "status": "success",
+        "title": "Lions Clubs International | Facebook",
+        "description": "Lions Clubs International, Oak Brook, Illinois. 833,782 likes · 3,867 talking about this. Lions Clubs International - Serving a world in need....",
+        "keywords": "No keywords"
+    },
+    {
+        "link": "https://cpw.state.co.us/learn/Pages/LivingwithWildlifeLion1.aspx",
+        "status": "error",
+        "error": "'content'"
+    },
+    {
+        "link": "https://www.nypl.org/help/about-nypl/library-lions",
+        "status": "success",
+        "title": "The Library Lions | The New York Public Library",
+        "description": "Patience and Fortitude, the world-renowned pair of marble lions that stand proudly before the majestic Beaux-Arts building at Fifth Avenue and 42nd Street in Manhattan, have captured the imagination and affection of New Yorkers and visitors from all over the world since the Library was dedicated on May 23, 1911. Patience, south of the main steps Called “New York’s most lovable",
+        "keywords": "NYPL, The New York Public Library, Manhattan, Bronx, Staten Island"
+    },
+    {
+        "link": "https://gopsusports.com/",
+        "status": "success",
+        "title": "Penn State Athletics Official Athletics Website",
+        "description": "No description",
+        "keywords": "No keywords"
+    },
+    {
+        "link": "https://www.clickondetroit.com/news/local/2024/07/16/michigan-residents-to-score-free-furniture-from-gardner-white-if-detroit-lions-win-super-bowl-lxi/",
+        "status": "success",
+        "title": "Michigan residents to score free furniture from Gardner White if Detroit Lions win Super Bowl LIX",
+        "description": "No description",
+        "keywords": "No keywords"
+    },
+    {
+        "link": "https://www.awf.org/wildlife-conservation/lion",
+        "status": "success",
+        "title": "Lion | African Wildlife Foundation",
+        "description": "African lions are threatened due to habitat loss and demand for their parts. AWF is building a future where lion habitats are conserved so lion populations can recover.",
+        "keywords": "No keywords"
+    },
+    {
+        "link": "https://www.nytimes.com/athletic/5641792/2024/07/17/detroit-lions-training-camp-ben-johnson-jack-campbell-mailbag/",
+        "status": "success",
+        "title": "Detroit Lions mailbag: Are they better than last season, who starts at cornerback? - The Athletic",
+        "description": "Plus, what coordinator succession might look like down the road and more.",
+        "keywords": "Detroit Lions"
+    },
+    {
+        "link": "https://www.nbcsports.com/nfl/detroit-lions",
+        "status": "success",
+        "title": "Detroit Lions: News, Scores, Stats, Headlines, Injury Updates & More - NBC Sports",
+        "description": "Get all the most recent Lions football player news, scores, stats, rumors, and more from NBC Sports. ",
+        "keywords": "No keywords"
+    },
+    {
+        "link": "https://www.folly-farm.co.uk/zoo/meet-the-zoo-animals/african-lion/",
+        "status": "success",
+        "title": "Fun Facts About Lions • African Lion Information For Kids",
+        "description": "Find out more about African lions, including where do they live? What do they eat? How long do they sleep for? Lots of fun facts for kids!",
+        "keywords": "No keywords"
+    },
+    {
+        "link": "https://lionsrugby.co.za/",
+        "status": "success",
+        "title": "Home - Lions Rugby | #LionsPride",
+        "description": "No description",
+        "keywords": "No keywords"
+    },
+    {
+        "link": "https://www.seibulions.jp/",
+        "status": "success",
+        "title": "埼玉西武ライオンズ",
+        "description": "プロ野球・埼玉西武ライオンズオフィシャルサイトです。試合や選手はもちろん、チケットやイベント、ファンクラブに至るまで球団オフィシャルならではの公式情報をファンのみなさまに提供します。",
+        "keywords": "No keywords"
+    },
+    {
+        "link": "https://www.austintexas.gov/department/lions-municipal-course",
+        "status": "success",
+        "title": "Lions Municipal Course | AustinTexas.gov",
+        "description": " ",
+        "keywords": "No keywords"
+    },
+    {
+        "link": "https://www.reuters.com/sports/texans-sign-former-lions-wr-quintez-cephus-2024-07-17/",
+        "status": "success",
+        "title": "reuters.com",
+        "description": "No description",
+        "keywords": "No keywords"
+    },
+    {
+        "link": "https://www.newsnow.co.uk/h/Sport/US+Sports/NFL/NFC+North/Detroit+Lions",
+        "status": "success",
+        "title": "Detroit Lions News | Latest News - NewsNow",
+        "description": "No description",
+        "keywords": "No keywords"
+    },
+    {
+        "link": "https://www.ticketmaster.com/detroit-lions-tickets/artist/805936",
+        "status": "success",
+        "title": "",
+        "description": "No description",
+        "keywords": "No keywords"
+    },
+    {
+        "link": "https://www.lions.no/",
+        "status": "success",
+        "title": "Lions Norge",
+        "description": "No description",
+        "keywords": "No keywords"
+    },
+    {
+        "link": "https://www.albanyherald.com/sports/texans-sign-former-lions-wr-quintez-cephus/article_41585a33-2929-5c01-a52a-b6b1f6468b85.html",
+        "status": "success",
+        "title": "Texans sign former Lions WR Quintez Cephus | Sports | albanyherald.com",
+        "description": "The Houston Texans have signed free agent wide receiver Quintez Cephus, according to his agents. SportsTrust Advisors announced the deal on Tuesday but did not disclose any contract terms. Cephus,",
+        "keywords": "flm, "
+    },
+    {
+        "link": "https://www.yardbarker.com/nfl/teams/detroit_lions/52",
+        "status": "success",
+        "title": "Detroit Lions: Breaking News, Rumors & Highlights | Yardbarker",
+        "description": "No description",
+        "keywords": "No keywords"
+    },
+    {
+        "link": "https://www.krugerpark.co.za/africa_lion.html",
+        "status": "success",
+        "title": "Lion - Leo Panthera - African Lion",
+        "description": "No description",
+        "keywords": "No keywords"
+    },
+    {
+        "link": "https://www.youtube.com/watch?v=jS3NulUyizM",
+        "status": "success",
+        "title": "Detroit Lions Free Agency and Detroit Lions News & Rumors Livestream (July 16, 2024) - YouTube",
+        "description": "Lions Nation Unite is live-talking the latest Detroit Lions news and rumors for the 2024 NFL free agency and the 2025 NFL draft. Who should the Lions look to...",
+        "keywords": "Lions, lions, Detroit Lions, detroit lions, lions news, lions rumors, detroit lions news, detroit lions rumors, lions news and rumors, lions rumors and news, today’s lions news, todays lions news, today’s lions rumors, Detroit lions rumors, todays lions rumors, lions rumors today, espn lions, espn detroit lions, detroit lions espn, lions espn, latest lions rumors, detroit lions rumors and news, amon-ra st. brown, jared goff, lions training camp, lions training camp 2024"
+    },
+    {
+        "link": "https://www.cmzoo.org/animals/a-z/featured-animals-african-lion/",
+        "status": "success",
+        "title": "Featured Animals - African Lion - CMZoo",
+        "description": "No description",
+        "keywords": "No keywords"
+    },
+    {
+        "link": "https://www.tiktok.com/@jukes/video/7392643501932006699",
+        "status": "success",
+        "title": "Lions are definitely repeating imo @Hunter Reynolds | lion | TikTok",
+        "description": "899 Likes, 26 Comments. TikTok video from Jukes (@jukes): “Lions are definitely repeating imo @Hunter Reynolds”. lion. original sound - Jukes.",
+        "keywords": "lion,Lions Football,lion videos,lion clips,lions roaring,cowboys vs lions,packers vs lions,Lions Of Tiktok,bills vs lions,49rs vs lions"
+    },
+    {
+        "link": "https://roarlions.com/news/2024/7/16/lions-prep-for-uac-football-media-day-next-week.aspx",
+        "status": "success",
+        "title": "Lions prep for UAC Football Media Day next week - University of North Alabama Athletics",
+        "description": "ARLINGTON, Texas (July 16, 2024) – The United Athletic Conference released details regarding the 2024 UAC Football Media Day this week, as the University of North",
+        "keywords": "No keywords"
+    },
+    {
+        "link": "https://panthera.org/cat/lion",
+        "status": "success",
+        "title": "Lion | Panthera",
+        "description": "More than just “the king of the jungle,” lions are unique big cats that need your help to survive.",
+        "keywords": "lion, lioness, lions, mane, pride, lion pride, cub, cubs, lion king, wildlife, safari, wild cats, big cat, big cat, africa, asia, gir forest, hwange national park, zimbabwe, luengue-luiana national park, angola, kafue national park, zambia, south africa, senegal, niokolo-koba national park, conservation, human-wildlife conflict, poaching, king of the jungle, gabon, bateke plateau national park"
+    },
+    {
+        "link": "https://www.griffindailynews.com/sports/national/texans-sign-former-lions-wr-quintez-cephus/article_6e6edc96-cb3d-5ece-8a38-055070ab949a.html",
+        "status": "success",
+        "title": "Texans sign former Lions WR Quintez Cephus | National | griffindailynews.com",
+        "description": "The Houston Texans have signed free agent wide receiver Quintez Cephus, according to his agents. SportsTrust Advisors announced the deal on Tuesday but did not disclose any contract terms. Cephus,",
+        "keywords": "nfl, story, news"
+    },
+    {
+        "link": "https://kids.nationalgeographic.com/animals/mammals/facts/lion",
+        "status": "success",
+        "title": "Lion",
+        "description": "For all of their roaring, growling, and ferociousness, lions are family animals and truly social in their own communities. They usually live in groups of 15 or more animals called prides. Prides can be as small as 3 or as big as 40 animals. In a pride, lions hunt prey, raise cubs, and defend their territory together. In prides the females do most of the hunting and cub rearing. Usually all the lionesses in the pride are related—mothers, daughters, grandmothers, and sisters. Many of the females in the pride give birth at about the same time. A cub may nurse from other females as well as its mother. Each pride generally will have no more than two adult males. While the females usually live with the pride for life, the males often stay for only two to four years. After that they go off on their own or are evicted by other males who take over the pride. When a new male becomes part of the pride it is not unusual for him to kill all the cubs, ensuring that all future cubs will have his genes. The main job of males in the pride is defending the pride's territory. A male's loud roar, usually heard after sunset, can carry for as far as five miles (eight kilometers). The roar warns off intruders and helps round up stray members of the pride. Hunting generally is done in the dark by the lionesses. They often hunt in groups of two or three, using teamwork to stalk, surround, and kill their prey. Lionesses aren't the most successful of hunters, because they usually score only one kill out of several tries. After the kill the males usually eat first, lionesses next—and the cubs get what's left. Males and females fiercely defend against any outside lions that attempt to join their pride. Because of their size, strength, and predatory skills, lions are considered one of the “big cats.” Tigers, cheetahs, leopards, jaguars, and cougars are also part of this grouping. Take the big cat quiz to see how much you know about these fierce felines. Then, just for fun, see which wild cat you’re most like with our personality quiz.",
+        "keywords": "No keywords"
+    },
+    {
+        "link": "https://books.google.com/books?id=EuQQYBchrxsC&pg=PA183&lpg=PA183&dq=lions&source=bl&ots=AtbU_4T7HF&sig=ACfU3U1l1KRX_dkTt4Z-kRVwfg3rKk1QVw&hl=en&sa=X&ved=2ahUKEwjFgquega-HAxUxq5UCHZMgBKc4WhDoAXoECCYQAw",
+        "status": "success",
+        "title": "Lions Clubs in the 21st Century - Paul Martin Robert Kleinfelder - Google Books",
+        "description": "This is the story of a special type of men and women, those who seek to return to society a portion of the good fortune they have earned and received in their own lives. They are called Lions and, since 1917, have actively engaged in constructing an organization that has evolved into one of the world's most powerful forces for humanitarian progress: The International Association of Lions Clubs. It is today comprised of nearly 1.3 million members in over 45,000 Lions clubs active in 202 lands spanning the globe. They speak scores of languages and represent diversified cultures. In spirit, however, they speak a common language, the language of voluntary service, responding to an inner drive to answer human needs and to improve living conditions in their own communities and the world community. This book expands upon the history of Lions Clubs International, published in 1991 as \"We Serve: The History of the Lions Clubs.\" It chronicles the development of the association from its birth in 1917 at Chicago's LaSalle Hotel in June of that year and at its first convention at the Adolphus Hotel in Dallas later in October. It relates 90 years of the association's life span and emphasizes the work of Lions on the world scene, including the tremendous success of the Lions Clubs International Foundation, SightFirst, Campaigns SightFirst I and II, programs for youth, and other activities that have elevated the stature of Lions wherever they serve. Readers will be impressed with the accomplishments of the membership and Lions will be moved to take greater pride in wearing the lapel pin of the association. Non-Lions will come to understand fully the ideals and determination of those to whom voluntary service has become a way of life.  ",
+        "keywords": "No keywords"
+    },
+    {
+        "link": "https://www.newyorker-lions.de/",
+        "status": "success",
+        "title": "Newyorker Lions",
+        "description": "Die 1. GFL-Mannschaft im American Football aus Braunschweig",
+        "keywords": "No keywords"
+    },
+    {
+        "link": "https://books.google.com/books?id=JEOcAgAAQBAJ&pg=PT289&lpg=PT289&dq=lions&source=bl&ots=rMdS9zexn9&sig=ACfU3U3A06YOK0Ky0GKc7mtsqXzkoQ5Rgg&hl=en&sa=X&ved=2ahUKEwjFgquega-HAxUxq5UCHZMgBKc4WhDoAXoECCgQAw",
+        "status": "success",
+        "title": "The Trouble with Lions: A Glasgow Vet in Africa - Jerry Haigh - Google Books",
+        "description": "The trouble with lions is that while you are conducting a pregnancy test, you need to be equally, if not more, aware of what you can learn from the lion's other end. That is one lesson that Jerry Haigh brings home in this fascinating collection of stories about working with wild animals in Africa. Conversational in tone, conservational in theme—you will be right beside Jerry, wife Jo, and a colourful cast of vets, guides, and wardens as they scour Africa’s sprawling vistas “troubleshooting” lions, rhinos, humans, and other indigenous mammals. Conservationists, veterinarians, and fans of real-life adventure tales will want to keep this memoir handy on the dashboards of their Land Cruisers.",
+        "keywords": "No keywords"
+    },
+    {
+        "link": "https://books.google.com/books?id=TH6VCwAAQBAJ&pg=PA299&lpg=PA299&dq=lions&source=bl&ots=2Ajo9-LmYK&sig=ACfU3U2-s8TPn9L96W1e9NUewt6OzB698A&hl=en&sa=X&ved=2ahUKEwjFgquega-HAxUxq5UCHZMgBKc4WhDoAXoECCUQAw",
+        "status": "success",
+        "title": "Dreaming of Lions: My Life in the Wild Places - Elizabeth Marshall Thomas - Google Books",
+        "description": "Elizabeth Marshall Thomas has spent a lifetime observing other creatures and other cultures, from her own backyard to the African savannah. Her books have transported millions of readers into the hidden lives of animals--from dogs and cats to deer and lions. She's chronicled the daily lives of African tribes, and even imagined the lives of prehistoric humans. She illuminates unknown worlds like no other. Now, she opens the doors to her own.  Dreaming of Lions traces Thomas's life from her earliest days, including when, as a young woman in the 1950s, she and her family packed up and left for the Kalahari Desert to study the Ju/Wa Bushmen. The world's understanding of African tribal cultures has never been the same since. Nor has Thomas, as the experience taught her not only how to observe, but also how to navigate in male-dominated fields like anthropology and animal science and do what she cared about most: spending time with animals and people in wild places, and relishing the people and animals around her at home.  Readers join Thomas as she returns to Africa, after college and marriage, with her two young children, ending up in the turmoil leading to Idi Amin's bloody coup. She invites us into her family life, her writing, and her fascination with animals--from elephants in Namibia, to dogs in her kitchen, or cougars outside her New England farmhouse. She also recounts her personal struggles, writing about her own life with the same kind of fierce honesty that she applies to the world around her, and delivering a memoir that not only shares tremendous insights, but also provides tremendous inspiration.  Dreaming of Lions, originally published in hardcover as A Million Years With You, is slightly updated and includes a powerful new afterword by the author.",
+        "keywords": "No keywords"
+    },
+    {
+        "link": "https://books.google.com/books?id=jiupDwAAQBAJ&pg=PA8&lpg=PA8&dq=lions&source=bl&ots=egYgsTZJSM&sig=ACfU3U3M-lHsI32q6mNaOJ7GjNvU6Ds9VA&hl=en&sa=X&ved=2ahUKEwjFgquega-HAxUxq5UCHZMgBKc4WhDoAXoECCcQAw",
+        "status": "success",
+        "title": "Mighty Lions - Charlotte Guillain - Google Books",
+        "description": "No description",
+        "keywords": "No keywords"
+    },
+    {
+        "link": "https://www.wwf.org.uk/learn/wildlife/african-lions",
+        "status": "success",
+        "title": "The magnificent lion: the symbol of Africa | WWF",
+        "description": "The African lions live in groups called 'pride', which include dominant males, females, cubs and juveniles.",
+        "keywords": "No keywords"
+    },
+    {
+        "link": "https://thelion.net.au/",
+        "status": "success",
+        "title": "The Lion Richlands: HEART - PRIDE - WONDER",
+        "description": "Richlands favourite restaurant, bar and venue all in the one club. Come and see us from Richlands and all other surrounding suburbs. It’s a whole new world!",
+        "keywords": "No keywords"
+    },
+    {
+        "link": "http://www.wellingtonlions.co.nz/",
+        "status": "success",
+        "title": "Mills Albert Wellington Lions - Lions",
+        "description": "No description",
+        "keywords": "No keywords"
+    },
+    {
+        "link": "https://www.cbssports.com/nfl/news/one-question-every-nfc-team-must-answer-entering-training-camp-lions-eagles-have-problems-that-need-solving/",
+        "status": "success",
+        "title": "One question every NFC team must answer entering training camp: Lions, Eagles have problems that need solving - CBSSports.com",
+        "description": "No description",
+        "keywords": "No keywords"
+    },
+    {
+        "link": "https://www.kake.com/sports/nfl/texans-sign-former-lions-wr-quintez-cephus/article_59539d80-9032-5204-bd0f-1031bbc097d4.html",
+        "status": "success",
+        "title": "Texans sign former Lions WR Quintez Cephus | Nfl | kake.com",
+        "description": "The Houston Texans have signed free agent wide receiver Quintez Cephus, according to his agents. SportsTrust Advisors announced the deal on Tuesday but did not disclose any contract terms. Cephus,",
+        "keywords": "nfl, story, news"
+    },
+    {
+        "link": "https://srnnews.com/texans-sign-former-lions-wr-quintez-cephus/",
+        "status": "success",
+        "title": "Texans sign former Lions WR Quintez Cephus - SRN News",
+        "description": "No description",
+        "keywords": "No keywords"
+    },
+    {
+        "link": "https://www.islandernews.com/sports/nfl/texans-sign-former-lions-wr-quintez-cephus/article_58c0c7dd-9e82-5fc2-95f5-9acf1598a18d.html",
+        "status": "success",
+        "title": "Texans sign former Lions WR Quintez Cephus | Nfl | islandernews.com",
+        "description": "The Houston Texans have signed free agent wide receiver Quintez Cephus, according to his agents. SportsTrust Advisors announced the deal on Tuesday but did not disclose any contract terms. Cephus,",
+        "keywords": "nfl, story, news"
+    },
+    {
+        "link": "https://www.bornfree.org.uk/animals/lions/",
+        "status": "success",
+        "title": "Lions - Born Free",
+        "description": "Facts about lions and what Born Free is doing to protect them.",
+        "keywords": "No keywords"
+    },
+    {
+        "link": "https://www.discoverwildlife.com/animal-facts/mammals/facts-about-lions",
+        "status": "success",
+        "title": "Lion guide: species facts and where they live in the wild - Discover Wildlife",
+        "description": "Often described as the king of the jungle, lions are a distinctive and well-known big cat species. Learn about lions in BBC Wildlife's expert guide.",
+        "keywords": "No keywords"
+    }
+]
