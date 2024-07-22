@@ -38,12 +38,41 @@ Scrape Tester 100
 	TO-BE Workflow:
 	Textual Description:
 
-	1. User Input: User is prompted and provides a topic for web scraping tests.
-	2. Automated Website Identification: Program uses requests, beautifulsoup, and langchain to automatically search Google to identify 100 websites relevant to the provided topic.
-	3. Automated Link Compilation: Program automatically compiles a list of 100 links from the Google search identified websites.
-	4. Test Web Scraping Capability: Program performs and automated test scrape for each identified link to determine if it can be successfully scraped.
-	5. Error Handling: Program handles errors encountered during testing and scraping, and then categorizes them with appropriate error codes.
-	6. Generate Comprehensive Report: Program will then produce a detailed report listing the 100 websites that were successfully scraped and those that failed, including error details.
+Import Libraries:
+	Import necessary libraries including os, json, time, datetime, quote_plus from urllib.parse, BeautifulSoup, selenium modules, ThreadPoolExecutor from concurrent.futures, streamlit, and csv.
+
+Helper Function:
+	timestamped_filename(base_filename): Generates a timestamped filename.
+
+Class Definition: GoogleSearchLoader:
+	Initialization:
+		__init__(self, query): Initializes the object with a search query.
+	Methods:
+		load_and_scroll(self): Loads Google search results and scrolls to load more results until 100 items are found or no new items are loaded.
+		save_html(self, html_content, base_filename="google_search_results.html"): Saves the HTML content to a timestamped file.
+		save_results_to_json(self, results, base_filename="parsed_search_results.json"): Saves parsed search results to a timestamped JSON file.
+		parse_items(self, html_content): Parses search items from HTML content using BeautifulSoup.
+	
+Function Definitions:
+	get_page_metadata(link): Retrieves metadata (title, description, keywords) from a webpage using Selenium.
+	test_link(link_info): Tests a single link by retrieving its metadata and returning a status.
+	test_links_concurrently(search_results): Tests a list of links concurrently and collects the results.
+	generate_report(test_results, query_topic): Generates a text-based report summarizing the test results.
+	save_report_to_csv(test_results, query_topic): Saves the test results to a CSV file with a timestamped filename.
+	
+Main Function:
+	Orchestrates the scraping and testing workflow using Streamlit.
+	Takes user input for the search query.
+	Initializes GoogleSearchLoader.
+	Loads and scrolls through the search results.
+	Saves the HTML content.
+	Parses the HTML content to extract search results.
+	Ensures at least 100 unique links are collected.
+	Saves the parsed search results to a JSON file.
+	Loads the parsed search results from the JSON file.
+	Tests the links concurrently and saves the results.
+	Generates and saves the report.
+	Saves the report to a CSV file.
 	
     "A problem clearly stated is a problem half-solved." - Dorothea Brande :
 
@@ -54,79 +83,172 @@ Scrape Tester 100
 	
 	• Software functions for solving problem(s) step by step.
 	
-User Input:
-Function to prompt the user for a topic.
-GUI-based input or command-line input can be utilized.
+Step-by-Step Breakdown of Functions
 
-Automated Website Identification:
-Function to perform a Google search using the provided topic.
-Use requests to fetch search results and BeautifulSoup to parse the HTML content.
-Use LangChain to manage and organize the search results.
+1. Helper Function: timestamped_filename
+	Purpose: Generates a filename with a timestamp to uniquely identify the file.
+	Parameters:
+		base_filename (str): The base name of the file without the extension.
+	Returns:
+		str: The timestamped filename including the original base name and extension.
+	
+2. Class: GoogleSearchLoader
+	Purpose: Loads and processes Google search results.
+	Initialization
+	Parameters: 
+		query (str): The search query string.
 
-Automated Link Compilation:
-Function to extract links from the Google search results.
-Compile a list of the top 100 links.
-
-Test Web Scraping Capability:
-Function to attempt scraping each identified link.
-Check for the presence of relevant content and handle different content structures.
-Use BeautifulSoup for parsing the HTML content of each link.
-
-Error Handling:
-Function to handle and log errors encountered during the scraping process.
-Categorize errors with appropriate error codes (e.g., 404 Not Found, 403 Forbidden, 500 Internal Server Error).
-
-Generate Comprehensive Report:
-Function to compile the results into a detailed report.
-List websites that were successfully scraped and those that failed, including error details.
-Output the report in a user-friendly format (e.g., CSV, JSON, or a formatted text file).
-
-
+	Method: load_and_scroll
+	Purpose: Loads search results and scrolls until at least 100 items or no new items are found.
+	Returns:
+		str: The HTML content of the loaded pages.
+		
+	Method: save_html
+	Purpose: Saves the HTML content to a timestamped file.
+	Parameters:
+		html_content (str): The HTML content to save.
+		base_filename (str): The base name of the file without the extension.
+	Returns:
+		str: The timestamped filename of the saved HTML file.
+		
+	Method: save_results_to_json
+	Purpose: Saves the parsed results to a timestamped JSON file.
+	Parameters:
+		results (list): The list of parsed results.
+		base_filename (str): The base name of the file without the extension.
+	Returns:
+		str: The path to the saved JSON file.
+		
+	Method: parse_items
+	Purpose: Parses search items from HTML content using BeautifulSoup.
+	Parameters:
+		html_content (str): The HTML content to parse.
+	Returns:
+		list: A list of dictionaries containing parsed search items.
+		
+3. Function: get_page_metadata
+	Purpose: Retrieves metadata (title, description, keywords) from a webpage using Selenium.
+	Parameters:
+		link (str): The URL of the webpage.
+	Returns:
+		tuple: A tuple containing the metadata dictionary and any error message.
+		
+4. Function: test_link
+	Purpose: Tests a single link by retrieving its metadata and returning a status.
+	Parameters:
+		link_info (dict): A dictionary containing the link and optional error handling.
+	Returns:
+		dict: A dictionary with the link status and optionally error details.
+		
+5. Function: test_links_concurrently
+	Purpose: Tests a list of links concurrently and collects the results.
+	Parameters:
+		search_results (list): A list of dictionaries representing links to test.
+	Returns:
+		list: A list of dictionaries containing the test results for each link.
+		
+6. Function: generate_report
+	Purpose: Generates a text-based report summarizing the test results.
+	Parameters:
+		test_results (list): A list of dictionaries containing the test results.
+		query_topic (str): The search query topic used for testing.
+	Returns:
+		str: A formatted string representing the report.
+		
+7. Function: save_report_to_csv
+	Purpose: Saves the test results to a CSV file with a timestamped filename.
+	Parameters:
+		test_results (list): A list of dictionaries containing the test results.
+		query_topic (str): The search query topic used for testing.
+	Returns:
+		str: The path to the saved CSV file.
+		
+8. Main Function
+	Purpose: Orchestrates the entire process using Streamlit for user interaction.
+	Steps:
+		Collects user input for the search query.
+		Initializes GoogleSearchLoader with the query.
+		Loads and scrolls through the search results.
+		Saves the HTML content.
+		Parses the HTML content to extract search results.
+		Ensures at least 100 unique links are collected.
+		Saves the parsed search results to a JSON file.
+		Loads the parsed search results from the JSON file.
+		Tests the links concurrently and saves the results.
+		Generates and saves the report.
+		Saves the report to a CSV file.
+		
 
 Summary of Steps and Functions:
-User Input:
 
-get_user_input(): Prompts the user for a search topic.
-Automated Website Identification:
-
-search_google(query): Performs a Google search and fetches the search results page.
-Automated Link Compilation:
-
-extract_links(html): Extracts and compiles the top 100 links from the search results.
-Test Web Scraping Capability:
-
-test_scraping(link): Tests each link to determine if it can be successfully scraped.
-Error Handling:
-
-Integrated into test_scraping(link): Logs errors and categorizes them with appropriate error codes.
-Generate Comprehensive Report:
-
-generate_report(results): Produces a detailed report of the scraping results.
-
-
-	Get User Input:
-	Function: get_user_topic()
-	Description: Prompts the user to enter a topic for web scraping.
-	
-	Search for Relevant Websites:
-	Function: search_websites(topic)
-	Description: Searches the internet for websites related to the given topic and compiles a list of up to 100 relevant sites.
-	
-	Compile List of Links:
-	Function: compile_links(websites)
-	Description: Extracts and compiles links from the list of identified websites.
-	
-	Test Web Scraping Capability:
-	Function: test_scraping(link)
-	Description: Performs a test scrape on each link to determine if it can be successfully scraped.
-	
-	Error Handling:
-	Function: handle_errors(error)
-	Description: Categorizes and logs errors encountered during the scraping tests, assigning appropriate error codes.
-	
-	Generate Report:
-	Function: generate_report(successful_links, failed_links)
-	Description: Generates a report listing the websites that were successfully scraped and those that failed, including detailed error codes.
+1. Helper Function: timestamped_filename
+	Purpose: Generates a filename with a timestamp to ensure uniqueness.
+	Steps:
+		Get the current timestamp.
+		Split the base filename into name and extension.
+		Return the combined filename with the timestamp.
+2. Class: GoogleSearchLoader
+		Purpose: Handles the loading and processing of Google search results.
+		Initialization (__init__):
+		Store the search query.
+Method: load_and_scroll:
+	Initialize a headless Selenium Chrome WebDriver.
+	Load the Google search page with the query.
+	Scroll and collect HTML content until at least 100 results are found or no new items are available.
+	Return the collected HTML content.
+Method: save_html:
+	Save the HTML content to a timestamped file.
+	Return the filename.
+Method: save_results_to_json:
+	Save the parsed results to a timestamped JSON file.
+	Return the filename.
+Method: parse_items:
+	Parse search items from the HTML content using BeautifulSoup.
+	Extract title, link, and snippet for each item.
+	Return a list of dictionaries with the parsed items.
+3. Function: get_page_metadata
+	Purpose: Retrieve metadata (title, description, keywords) from a webpage.
+	Steps:
+		Initialize a headless Selenium Chrome WebDriver.
+		Load the webpage.
+		Extract title, description, and keywords.
+		Return the metadata and any error message.
+4. Function: test_link
+	Purpose: Test a single link by retrieving its metadata.
+	Steps:
+		Call get_page_metadata for the link.
+		Return the link status and metadata or error.
+5. Function: test_links_concurrently
+	Purpose: Test a list of links concurrently.
+	Steps:
+		Use a ThreadPoolExecutor to test links in parallel.
+		Collect and return the results.
+6. Function: generate_report
+	Purpose: Generate a text-based report summarizing the test results.
+	Steps:
+		Count successful and error results.
+		Format the results into a report string.
+		Return the report.
+7. Function: save_report_to_csv
+	Purpose: Save the test results to a CSV file.
+	Steps:
+		Create a timestamped CSV file.
+		Write the test results to the CSV file.
+		Return the filename.
+8. Main Function
+	Purpose: Orchestrate the entire process using Streamlit for user interaction.
+	Steps:
+		Collect user input for the search query.
+		Initialize GoogleSearchLoader with the query.
+		Load and scroll through the search results.
+		Save the HTML content.
+		Parse the HTML content to extract search results.
+		Ensure at least 100 unique links are collected.
+		Save the parsed search results to a JSON file.
+		Load the parsed search results from the JSON file.
+		Test the links concurrently and save the results.
+		Generate and save the report.
+		Save the report to a CSV file.
 	
 	• Workflow diagram of future ("TO-BE") state (improved processes from your solution).
 	• "Minimum Viable Product" (MVP) 1.0 delivered.  (V1.x delivered beyond MVP V1.0?)
