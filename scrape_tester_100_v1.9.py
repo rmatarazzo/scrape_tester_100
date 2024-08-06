@@ -33,6 +33,8 @@ class GoogleSearchLoader: # Attributes: query (str): The search query string.
         options = Options()
         options.add_argument('--headless')
         options.add_argument('--disable-gpu')
+        #chrome_driver_path = "C:\\Users\\rmata\\.wdm\\drivers\\chromedriver\\win64\\126.0.6478.182\\chromedriver-win32\\chromedriver.exe"  # Update this path
+        #service = Service(chrome_driver_path)
         service = Service(ChromeDriverManager().install())
         driver = webdriver.Chrome(service=service, options=options)
         driver.get(f"https://www.google.com/search?q={quote_plus(self.query)}")
@@ -73,14 +75,14 @@ class GoogleSearchLoader: # Attributes: query (str): The search query string.
         driver.quit()
         return collected_html # str: The HTML content of the loaded pages.
 
-    def save_html(self, html_content, base_filename="google_search_results.html"): # html_content (str): The HTML content to save and base_filename (str): The base name of the file without the extension.
+    def save_html(self, html_content, base_filename="Google_search_results.html"): # html_content (str): The HTML content to save and base_filename (str): The base name of the file without the extension.
         """Save the HTML content to a timestamped file."""
         timestamped_file = timestamped_filename(base_filename)
         with open(timestamped_file, 'w', encoding='utf-8') as file:
             file.write(html_content)
         return timestamped_file # str: The timestamped filename of the saved HTML file.
 
-    def save_results_to_json(self, results, base_filename="parsed_search_results.json"): # results (list): The list of parsed results and base_filename (str): The base name of the file without the extension.
+    def save_results_to_json(self, results, base_filename="parsed_Google_search_results.json"): # results (list): The list of parsed results and base_filename (str): The base name of the file without the extension.
         """Save the parsed results to a timestamped JSON file."""
         json_filename = timestamped_filename(base_filename)
         with open(json_filename, "w", encoding='utf-8') as json_file:
