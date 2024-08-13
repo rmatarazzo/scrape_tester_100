@@ -19,15 +19,15 @@ import pandas as pd # Prettify the CSV report
 output_dir = 'data_output_files' # create a directory to store the output files
 os.makedirs(output_dir, exist_ok=True)
 
-def timestamped_filename(base_filename): # base_filename (str): The base name of the file without the extension.
+def timestamped_filename(base_filename):  # base_filename (str): The base name of the file without the extension.
     """Generate a filename with a timestamp to uniquely identify the file."""
     timestamp = datetime.now().strftime("%Y%m%d_%H%M%S")
     filename, ext = os.path.splitext(base_filename)
-    return f"{filename}_{timestamp}{ext}" # str: The timestamped filename including the original base name and extension.
+    return f"{filename}_{timestamp}{ext}"  # str: The timestamped filename including the original base name and extension.
 
-class GoogleSearchLoader: # Attributes: query (str): The search query string.
+class GoogleSearchLoader:  # Attributes: query (str): The search query string.
     """A class to load and process Google search results."""
-    def __init__(self, query): # query (str): The search query string.
+    def __init__(self, query):  # query (str): The search query string.
         """Initialize the GoogleSearchLoader object with a search query."""
         self.query = query
 
@@ -37,48 +37,46 @@ class GoogleSearchLoader: # Attributes: query (str): The search query string.
         options = Options()
         options.add_argument('--headless')
         options.add_argument('--disable-gpu')
-        #chrome_driver_path = "C:\\Users\\rmata\\.wdm\\drivers\\chromedriver\\win64\\126.0.6478.182\\chromedriver-win32\\chromedriver.exe"  # Update this path
-        #service = Service(chrome_driver_path)
         service = Service(ChromeDriverManager().install())
         driver = webdriver.Chrome(service=service, options=options)
-        driver.get(f"https://www.google.com/search?q={quote_plus(self.query)}")
-
-        num_results = 0
-        collected_html = ""
-        wait = WebDriverWait(driver, 10)
         
-        while num_results < 100:
-            # Wait for the search results to load
-            wait.until(EC.presence_of_all_elements_located((By.CSS_SELECTOR, 'div.g')))
-            
-            search_items = driver.find_elements(By.CSS_SELECTOR, 'div.g')
-            num_results += len(search_items)
-            collected_html += driver.page_source
+        try:
+            driver.get(f"https://www.google.com/search?q={quote_plus(self.query)}")
+            num_results = 0
+            collected_html = ""
+            wait = WebDriverWait(driver, 10)
 
-            if num_results >= 100:
-                break
+            while num_results < 100:
+                # Wait for the search results to load
+                wait.until(EC.presence_of_all_elements_located((By.CSS_SELECTOR, 'div.g')))
 
-            # Try to find the "Next" button and click it
-            try:
-                next_button = wait.until(
-                    EC.element_to_be_clickable((By.CSS_SELECTOR, 'a#pnnext'))
-                )
-                next_button.click()
-                time.sleep(2)  # Allow time for the page to load
-            except Exception:
+                search_items = driver.find_elements(By.CSS_SELECTOR, 'div.g')
+                num_results += len(search_items)
+                collected_html += driver.page_source
+
+                if num_results >= 100:
+                    break
+
+                # Try to find the "Next" button and click it
                 try:
-                    more_results_button = wait.until(
-                        EC.element_to_be_clickable((By.XPATH, '//a[contains(., "More results")]'))
+                    next_button = wait.until(
+                        EC.element_to_be_clickable((By.CSS_SELECTOR, 'a#pnnext'))
                     )
-                    more_results_button.click()
-                    time.sleep(2)  # Allow time for more results to load
+                    next_button.click()
+                    time.sleep(2)  # Allow time for the page to load
                 except Exception:
-                    print("No more pages or unable to load more results.")
-                    driver.quit()
-                    break  # No new items or next/more results button was not found
-        
-        driver.quit()
-        return collected_html # str: The HTML content of the loaded pages.
+                    try:
+                        more_results_button = wait.until(
+                            EC.element_to_be_clickable((By.CSS_SELECTOR, 'button[jsname="U8S5sf"]'))
+                        )
+                        more_results_button.click()
+                        time.sleep(2)  # Allow time for the page to load
+                    except Exception:
+                        break  # No more results available
+
+            return collected_html
+        finally:
+            driver.quit()  # Ensure the WebDriver session is closed and all Chrome processes are terminated.
 
     def save_html(self, html_content, base_filename="Google_search_results.html"): # html_content (str): The HTML content to save and base_filename (str): The base name of the file without the extension.
         """Save the HTML content to a timestamped file with pretty print."""
@@ -171,21 +169,13 @@ def get_page_metadata(link):
             # Instead of returning immediately, set an error message in the metadata dictionary
             metadata['keywords'] = "Keywords meta tag not found."
 
-        driver.quit()
         return metadata, None  # Tuple containing the metadata dictionary and any error message.
     except Exception as e:
-        driver.quit()
         return None, str(e)
     finally:
         if driver:
             driver.quit()
-            
-        
-    #     return metadata, None  # Tuple containing the metadata dictionary and any error message.
-    # except Exception as e:
-    #     driver.quit()
-    #     return None, str(e)
-
+      
 def test_link(link_info): # link_info (dict): A dictionary containing the link and optional error handling.
     """Test a single link by retrieving its metadata and returning a status."""
     link = link_info['link']
@@ -203,7 +193,6 @@ def test_links_concurrently(search_results): # search_results (list): A list of 
         for future in as_completed(futures):
             result = future.result()
             results.append(result)
-    #driver.quit()
     return results # list: A list of dictionaries containing the test results for each link.
 
 def generate_report(test_results, query_topic): # test_results (list): A list of dictionaries containing the test results and query_topic (str): The search query topic used for testing.
@@ -335,3 +324,4 @@ def main():
             
 if __name__ == "__main__":
     main()
+

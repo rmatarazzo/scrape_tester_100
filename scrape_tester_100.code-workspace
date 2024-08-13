@@ -4,8 +4,5 @@
 			"path": "."
 		}
 	],
-	"settings": {
-		"workbench.editor.enablePreview": false,
-		"workbench.editor.alwaysShowEditorActions": true
-	}
+	"settings": {}
 }
