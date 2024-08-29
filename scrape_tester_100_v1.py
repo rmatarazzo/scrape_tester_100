@@ -65,7 +65,7 @@ class GoogleSearchLoader:
         """Load search results and scroll until at least 100 items or no new items are found
         and return the HTML content of the loaded pages."""
         options = Options()
-        # options.add_argument('--headless')
+        options.add_argument('--headless')
         options.add_argument('--disable-gpu')
         service = Service(ChromeDriverManager().install())
         driver = webdriver.Chrome(service=service, options=options)
